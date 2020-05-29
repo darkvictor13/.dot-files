@@ -5,8 +5,11 @@
 # Esse arquivo de configuracao vem por padrao em (~/.config/i3/config)         #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
-# (ln -s ~/Repos/config-Arch-linux/i3status.conf ~/.config/i3/config)          #
+# (ln -s ~/Repos/config-Arch-linux/i3 ~/.config/i3)										         #
 #                                                                              # 
+# Documentation                                                                #
+# https://i3wm.org/docs/userguide.html                                         #
+# https://wiki.archlinux.org/index.php/I3                                      #
 ################################################################################
 
                      #### Definindo as variaveis ####
@@ -28,38 +31,70 @@ set $mod Mod4
                  #### Configuracoes mais gerais do sistema ####
 # Fonte
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:Terminus 20px 
+font pango:Source Code Pro 20px 
 
 # Aplicacoes que iniciam com o sistema #
 #=================================================================================
 exec --no-startup-id nitrogen --restore&                                         #
 exec --no-startup-id compton                                                     #
-exec --no-startup-id volumeicon                                                  #
 exec --no-startup-id nm-applet                                                   #
+exec --no-startup-id flameshot                                                   #
+exec --no-startup-id volumeicon                                                  #
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #=================================================================================
 
 # configurando a barra de informacoes do i3 #
 #=================================================================================
-bar {                                                                            #
-  status_command    i3status                                                     #
-  position          bottom                                                       #
-  font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1                 #
-  font pango:Terminus 15px                                                       #
-                                                                                 #
-  colors {                                                                       #
-	background #0A0019                                                             #
-	statusline #00ff00                                                             #
-	separator  #ffffff                                                             #
-                                                                                 #
-	#Class              border  backgr. indic.  child_border				               #
-	focused_workspace		#00ff00 #00a100 #000000									                   #
-	active_workspace		#333333 #00a100 #000000										                 #
-	inactive_workspace	#0a0019 #ff0000 #000000											               #
-	urgent_workspace		#2f343a #900000 #ffffff												             #
-	binding_mode				#2f343a #900000	#ffffff													           #
-  }	                                                                             #
-}                                                                                #
+bar {                                                                            
+  status_command    i3status                                                     
+  position          bottom                                                       
+	height 30                                                                      
+	i3bar_command i3bar --transparency                                             
+  font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1                 
+  font pango:Source Code Pro for Powerline 15px                                  
+	separator_symbol "  "
+  #font pango:Ubuntu Mono 17px																									 
+                                                                                 
+#  colors {                                                                      
+#	background #0A0019                                                             
+#	statusline #00ff00                                                             
+#	separator  #ffffff                                                             
+#                                                                                
+#	#Class              border  backgr. indic.  child_border				               
+#	focused_workspace		#00ff00 #00a100 #000000									                   
+#	active_workspace		#333333 #00a100 #000000										                 
+#	inactive_workspace	#0a0019 #ff0000 #000000											               
+#	urgent_workspace		#2f343a #900000 #ffffff												             
+#	binding_mode				#2f343a #900000	#ffffff													           
+#  }	                                                                           
+																																								 
+  colors {                                                                       
+	background #10101080                                                           
+	statusline #F4FA58	
+	#statusline #f3f781	
+	separator  #ffffff                                                             
+                                                                                 
+	#Class              border		backgr.		indic.  child_border				           
+	focused_workspace		#010101		#f3f781		#000000
+	active_workspace		#010101		#f3f781		#000000
+	inactive_workspace	#01010180 #3a2f0b80 #00000080
+	urgent_workspace		#010101		#900000		#ffffff
+	binding_mode				#010101		#900000		#ffffff
+  }	                                                                             
+}                                                                                
+#=================================================================================
+
+# Configurando as bordas das janelas
+#=================================================================================
+# class										border  backgr. text    indicator child_border         #
+client.focused						#010101 #285577 #ffffff #f3f781   #f3f781
+client.focused_inactive		#333333 #5f676a #ffffff #484e50   #f3f781
+client.unfocused					#333333 #222222 #888888 #292d2e   #3a2f0b
+client.urgent							#2f343a #900000 #ffffff #900000   #900000
+client.placeholder				#000000 #0c0c0c #ffffff #000000   #0c0c0c
+																																								 #
+client.background       #ffffff
 #=================================================================================
 
 ## configurando i3-gaps ##
@@ -76,8 +111,9 @@ gaps outer 4                                                                    
 #==========================================================================================
 set $Locker i3lock && sleep 1
 
-set $mode_system Aperte [r] = (↻reboot) ou [d] = (Ødesliga)
+set $mode_system |[l] =  | [r] = ↻ | [d] = ⏻|
 mode "$mode_system" {
+		bindsym l exec --no-startup-id i3lock && systemctl suspend, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym d exec --no-startup-id systemctl poweroff -i, mode "default"
 
@@ -97,10 +133,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -237,9 +273,12 @@ bindsym $mod+Return exec termite
 # bindsym $mod+Shift+Return
 
 ############## <PrtSc> ############## 
-# tira print
+# tira print de uma parte da tela
 bindsym Print exec termite -e 'flameshot gui'
-# bindsym $mod+Shift+Print
+# tira print de toda tela e guarda em Screenshots
+bindsym $mod+Shift+Print exec termite -e 'flameshot full -p ~/Pictures/Screenshots'
+# tira print de toda tela e deixa no clipboard
+bindsym $mod+Print exec termite -e 'flameshot full -c'
 
 ############## <Numeros> ############## 
 # Mudando de workspace

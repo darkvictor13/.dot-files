@@ -1,0 +1,151 @@
+extends tex
+
+snippet tabelav4
+\begin\{table}[!htb]
+	\centering
+	\caption\{$1}
+	\begin\{tabular}\{|c|c|c|c|}
+		\hline
+		A & B & C & D
+		\hline
+		0 & 0 & 0 & 0 & \\\ \hline
+		0 & 0 & 0 & 1 & \\\ \hline
+		0 & 0 & 1 & 0 & \\\ \hline
+		0 & 0 & 1 & 1 & \\\ \hline
+		0 & 1 & 0 & 0 & \\\ \hline
+		0 & 1 & 0 & 1 & \\\ \hline
+		0 & 1 & 1 & 0 & \\\ \hline
+		0 & 1 & 1 & 1 & \\\ \hline
+		1 & 0 &	0 & 0 & \\\ \hline
+		1 & 0 & 0 & 1 & \\\ \hline
+		1 & 0 & 1 & 0 & \\\ \hline
+		1 & 0 & 1 & 1 & \\\ \hline
+		1 & 1 & 0 & 0 & \\\ \hline
+		1 & 1 & 0 & 1 & \\\ \hline
+		1 & 1 & 1 & 0 & \\\ \hline
+		1 & 1 & 1 & 1 & \\\ \hline
+	\end\{tabular}
+\end\{table}
+endsnippet
+
+snippet tabelav3
+\begin\{table}[!htb]
+	\centering
+	\caption\{$1}
+	\begin\{tabular}\{|c|c|c|}
+		\hline
+		A & B & C	
+		\hline
+		0 & 0 & 0 & \\\ \hilne
+		0 & 0 & 1 & \\\ \hline
+		0 & 1 & 0 & \\\ \hline
+		0 & 1 & 1 & \\\ \hline
+		1 & 0 & 0 & \\\ \hline
+		1 & 0 & 1 & \\\ \hline
+		1 & 1 & 0 & \\\ \hline
+		1 & 1 & 1 & \\\ \hline
+	\end\{tabular}
+\end\{table}
+endsnippet
+
+snippet resposta
+\$\rightarrow\$ Resposta: \textcolor{red}{$1}
+endsnippet
+
+snippet elev
+$^$1\$ 
+endsnippet
+
+snippet base
+\$_\{$1}\$
+endsnippet
+
+snippet ag
+\$\\overleftarrow\{$1}\$
+endsnippet
+
+snippet caixa
+\begin\{framed}
+	$1
+\end{framed}
+endsnippet
+
+snippet ve
+\textcolor{red}{$1}
+endsnippet
+
+snippet hex
+\$\\ast\$16\$^$1\$ + 
+endsnippet
+
+snippet bd
+\$\ast\$2$^$1\$
+endsnippet
+
+snippet items
+\begin{itemize}
+	$1
+\end{itemize}
+endsnippet
+
+snippet enum
+\begin{enumerate}
+	$1
+\end{enumerate}
+endsnippet
+
+snippet *
+$\ast$
+endsnippet
+
+snippet i
+\item $1
+endsnippet
+
+snippet m
+\$ $0 \$
+endsnippet
+
+snippet n
+\overline{$0}
+endsnippet
+
+snippet figure "Sintaxe para importar imagem"
+\begin\{figure}[!htb]
+	\centering
+	\includegraphics[keepaspectratio]\{$2}
+	\caption\{$3}
+	\label\{fig:$0}
+\end\{figure}
+endsnippet
+
+snippet comand
+\textbf\{\$\ast\$$1\$\ast$}
+endsnippet
+
+snippet ra 
+\$\rightarrow\$$1
+endsnippet
+
+snippet init
+\documentclass[12pt, a4paper] \{article}
+\usepackage[utf8]\{inputenc}
+\usepackage\{graphicx}
+\usepackage\{indentfirst}
+
+\begin\{document}
+	$1
+\end\{document}
+endsnippet
+
+snippet sec "Cria uma secao"
+\section{$1}
+endsnippet
+
+snippet ha "Flecha puxando da linha de cima"
+$\hookrightarrow$ $1
+endsnippet
+
+snippet ind
+\indent $1
+endsnippet

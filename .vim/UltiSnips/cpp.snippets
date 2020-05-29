@@ -1,0 +1,38 @@
+extends cpp
+
+snippet uri
+#include <iostream>
+
+using namespace std;
+
+int main () \{
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	$1
+	return 0;
+}
+endsnippet
+
+snippet for
+for ($1;;) \{
+	
+}
+endsnippet
+
+snippet init
+#include <iostream>
+#include <$1>
+
+using namespace std;
+
+int main (int argc, char *argv[]) \{
+	$0
+	return 0;
+}
+endsnippet
+
+snippet while
+while($1) \{
+	$0
+}
+endsnippet

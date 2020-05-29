@@ -13,9 +13,10 @@
 [colors]
 
 # special
-foreground				= #ffff99
-foreground_bold		= #ffff99
-cursor						= #ffff99
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+#background = rgba (35, 42, 54, 0.9)
 background = rgba (6, 3, 2, 0.9)
 
 # black
@@ -31,16 +32,16 @@ color2  = #50fa7b
 color10 = #5af78e
 
 # yellow
-color3  = #ffff00
-color11 = #ffff33
+color3  = #f1fa8c
+color11 = #f4f99d
 
-# laranja
-color4  = #ff8000
-color12 = #ff9933
+# blue
+color4  = #bd93f9
+color12 = #caa9fa
 
-# amarelo claro
-color5  = #ffff60
-color13 = #f1fa8c
+# magenta
+color5  = #ff79c6
+color13 = #ff92d0
 
 # cyan
 color6  = #8be9fd
@@ -51,9 +52,5 @@ color7  = #bfbfbf
 color15 = #e6e6e6
 
 [options]
-font = Source Code Pro 11
 #font = Ubuntu Mono derivative Powerline 12
-clickable_url = true
-scrollback_lines = 10000
-audible_bell = true
-mouse_autohide = false
+font = Source Code Pro 11
