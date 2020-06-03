@@ -5,7 +5,7 @@
 # Esse arquivo de configuracao vem por padrao em (~/.config/i3/config)         #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
-# (ln -s ~/Repos/config-Arch-linux/i3 ~/.config/i3)										         #
+# (ln -s ~/Repos/.dot-files/i3 ~/.config/i3)				       #
 #                                                                              # 
 # Documentation                                                                #
 # https://i3wm.org/docs/userguide.html                                         #
@@ -52,9 +52,9 @@ bar {
 	height 30                                                                      
 	i3bar_command i3bar --transparency                                             
   font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1                 
-  font pango:Source Code Pro for Powerline 15px                                  
+  font pango:Source Code Pro for Powerline 16px
 	separator_symbol "  "
-  #font pango:Ubuntu Mono 17px																									 
+  #font pango:Ubuntu Mono 17px
                                                                                  
 #  colors {                                                                      
 #	background #0A0019                                                             
