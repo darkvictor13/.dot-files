@@ -55,5 +55,5 @@ font = Source Code Pro 11
 #font = Ubuntu Mono derivative Powerline 12
 clickable_url = true
 scrollback_lines = 10000
-audible_bell = true
+audible_bell = false
 mouse_autohide = false

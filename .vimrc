@@ -81,14 +81,13 @@ inoremap { {}<left>
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set noexpandtab
+set expandtab
 
 "impede que o vim execute shellscripts indesejados, modo seguro
 set exrc
 set secure
 
 " Configuração de aspectos visuais
-"color abbott.vim
 color spacecamp_lite
 "color dracula
 "color space-vim-dark
@@ -110,8 +109,10 @@ set path=$PWD/**
 " Compilar em c
 autocmd FileType c map <F6> :silent !gcc %:r.c -o %:r -lm &<Enter>
 autocmd FileType cpp map <F6> :silent !g++ %:r.c -o %:r &<Enter>
-set clipboard=unnamedplus
 
 " Carrega dicionario em português
 set spell spelllang=pt 
 set encoding=utf-8
+
+" clipboard compartilhada, vim e resto do sistema
+set clipboard=unnamedplus

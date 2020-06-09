@@ -40,7 +40,8 @@ exec --no-startup-id compton                                                    
 exec --no-startup-id nm-applet                                                   #
 exec --no-startup-id flameshot                                                   #
 exec --no-startup-id volumeicon                                                  #
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
+exec_always --no-startup-id xautolock -time 5  -locker "i3lock-fancy" && systemctl suspend, mode "default"
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #=================================================================================
 
@@ -113,7 +114,7 @@ set $Locker i3lock && sleep 1
 
 set $mode_system |[l] =  | [r] = ↻ | [d] = ⏻|
 mode "$mode_system" {
-		bindsym l exec --no-startup-id i3lock && systemctl suspend, mode "default"
+		bindsym l exec --no-startup-id i3lock-fancy && systemctl suspend, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym d exec --no-startup-id systemctl poweroff -i, mode "default"
 
@@ -237,8 +238,8 @@ bindsym $mod+s layout stacking
 # bindsym $mod+Shift+
 
 ############## T ############## 
-bindsym $mod+t exec thunar
-# bindsym $mod+Shift+
+bindsym $mod+t exec "xrandr --output eDP --brightness .5"
+bindsym $mod+Shift+t exec "xrandr --output eDP --brightness 1"
 
 ############## U ############## 
 # bindsym $mod+
@@ -274,11 +275,11 @@ bindsym $mod+Return exec termite
 
 ############## <PrtSc> ############## 
 # tira print de uma parte da tela
-bindsym Print exec termite -e 'flameshot gui'
+bindsym Print exec "flameshot gui"
 # tira print de toda tela e guarda em Screenshots
-bindsym $mod+Shift+Print exec termite -e 'flameshot full -p ~/Pictures/Screenshots'
+bindsym $mod+Shift+Print exec "flameshot full -p ~/Pictures/Screenshots"
 # tira print de toda tela e deixa no clipboard
-bindsym $mod+Print exec termite -e 'flameshot full -c'
+bindsym $mod+Print exec "flameshot full -c"
 
 ############## <Numeros> ############## 
 # Mudando de workspace

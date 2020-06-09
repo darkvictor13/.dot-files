@@ -150,6 +150,8 @@ function auto_git() {
 alias neofetch="neofetch | lolcat"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
+# Muda o path do dump
+
 
 
 ### Added by Zinit's installer
