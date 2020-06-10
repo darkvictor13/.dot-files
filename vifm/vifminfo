@@ -22,7 +22,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -109,8 +109,119 @@ d/home/victor/Documents
 	..
 0
 d/home/victor
+	Pictures
+4
+d/home/victor/Pictures
+	wallpapers
+1
+d/home/victor/Pictures/wallpapers
+	negue_se_si_mesmo_tome_cruz.jpg
+31
+d/home/victor/Pictures
+	wallpapers
+1
+d/home/victor/Pictures/wallpapers
+	a_luz_brilha_nas_trevas.jpg
+14
+d/home/victor/Pictures
+	..
+0
+d/home/victor
 	Documents
 1
+d/home/victor/Documents
+	..
+0
+d/home/victor
+	Music
+18
+d/home/victor/Music
+	Alessandro_VIllas_Boas
+1
+d/home/victor/Music/Alessandro_VIllas_Boas
+	..
+0
+d/home/victor/Music
+	Hillsong
+2
+d/home/victor/Music/Hillsong
+	..
+0
+d/home/victor/Music
+	Alessandro_VIllas_Boas
+1
+d/home/victor/Music/Alessandro_VIllas_Boas
+	..
+0
+d/home/victor/Music
+	Isaias-Saad
+3
+d/home/victor/Music/Isaias-Saad
+	..
+0
+d/home/victor/Music
+	Isra_Subira
+4
+d/home/victor/Music/Isra_Subira
+	..
+0
+d/home/victor/Music
+	Luma-Epildio
+5
+d/home/victor/Music/Luma-Epildio
+	[Luma_Elpidio]-Voc�_Veio_Pra_Ficar.mp3
+17
+d/home/victor/Music
+	Morada
+6
+d/home/victor/Music/Morada
+	..
+0
+d/home/victor/Music
+	Palankin
+7
+d/home/victor/Music/Palankin
+	..
+0
+d/home/victor/Music
+	Projeto_Sola
+8
+d/home/victor/Music/Projeto_Sola
+	..
+0
+d/home/victor/Music
+	Qv
+9
+d/home/victor/Music/Qv
+	..
+0
+d/home/victor/Music
+	Rodolfo_Abrantes
+10
+d/home/victor/Music/Rodolfo_Abrantes
+	..
+0
+d/home/victor/Music
+	Som_Do_Reino
+11
+d/home/victor/Music/Som_Do_Reino
+	..
+0
+d/home/victor/Music
+	diversos
+12
+d/home/victor/Music/diversos
+	..
+0
+d/home/victor/Music
+	skilet
+13
+d/home/victor/Music/skilet
+	..
+0
+d/home/victor/Music
+	skilet
+13
 d
 
 # Right window history (oldest to newest):
@@ -121,8 +232,8 @@ D/home/victor/Repos
 	MinhaArduinoIde
 1
 D/home/victor
-	Repos
-5
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -130,6 +241,11 @@ D
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
+phipocritas_mascara.jpg
+p[Luma_Elpidio]-Você_Veio_Pra_Ficar.mp3
+p[MORADA]-+ë_TUDO_SOBRE_VOC+è.mp3
+p[Projeto_sola]-(SP)-Ó_Vinde_Adoremos.mp3
+p[Redenção]-(Phill)-Filipenses.mp3
 
 # Local filter history (oldest to newest):
 
@@ -142,7 +258,7 @@ D
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
-current: 1
-time: 167.270000
+current: 0
+time: 134.912000
 random: 0
 repeat: 0
 single: 0
@@ -14,4 +14,12 @@ mixrampdelay: -1.000000
 playlist_begin
 0:Qv/[QV_Filhos]-(Rudney_de_Paula)-A_Melhor_Parte.mp3
 1:Hillsong/[Hillsong_Worship]-Grace_To_Grace.mp3
+2:Morada/[MORADA]-Para_Onde_Eu_Irei.mp3
+3:Alessandro_VIllas_Boas/[Alessandro_Vilas_Boas]-EKBALLO.mp3
+4:Luma-Epildio/[Luma_Elpidio]-Santo_Deus.mp3
+5:Luma-Epildio/[Luma_Elpidio]-Tua_Glória.mp3
+6:Luma-Epildio/[Luma_Elpidio]-Liberta-me_de_Mim.mp3
+7:Qv/[QV_Filhos]-(Bruno_Guimar+úes)-A_morte_n+úo_parou_Jesus.mp3
+8:Qv/[QV_Filhos]-(Carol_Cassiano)-Romanos_8.mp3
+9:Qv/[Reden+º+úo]-(Phill)-Filipenses.mp3
 playlist_end

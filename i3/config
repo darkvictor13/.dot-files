@@ -5,7 +5,7 @@
 # Esse arquivo de configuracao vem por padrao em (~/.config/i3/config)         #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
-# (ln -s ~/Repos/.dot-files/i3 ~/.config/i3)				       #
+# (ln -s ~/Repos/.dot-files/i3 ~/.config/i3)				                           #
 #                                                                              # 
 # Documentation                                                                #
 # https://i3wm.org/docs/userguide.html                                         #
@@ -26,7 +26,6 @@ set $ws9 "9"
 set $ws10 "10"
 # Configura o mod para a tecla do windows
 set $mod Mod4
-
 
                  #### Configuracoes mais gerais do sistema ####
 # Fonte
@@ -153,12 +152,12 @@ bindsym $mod+a focus parent
 # bindsym $mod+Shift+a
 
 ############## B ############## 
-# bindsym $mod+b
+bindsym $mod+b exec termite -e "vim .vimrc"
 # bindsym $mod+Shift+b
 
 ############## C ############## 
-# Abre o ranger
-bindsym $mod+c exec termite -e '~/.config/vifm/scripts/vifmrun'
+# Abre o vifm
+# bindsym $mod+c exec termite -e "bash ~/.config/vifm/scripts/vifmrun"
 # reload the configuration file
 bindsym $mod+Shift+c reload
 

@@ -148,6 +148,7 @@ function auto_git() {
 }
 # faz o neofetch colorido
 alias neofetch="neofetch | lolcat"
+alias vifm="~/.config/vifm/scripts/vifmrun"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
 # Muda o path do dump
