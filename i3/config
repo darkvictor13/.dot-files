@@ -1,7 +1,11 @@
+# Arquivo de configuracao modificado por :
+# __     ___      _
+# \ \   / (_) ___| |_ ___  _ __
+#  \ \ / /| |/ __| __/ _ \| '__|
+#   \ V / | | (__| || (_) | |
+#    \_/  |_|\___|\__\___/|_|
+#
 ################################################################################
-#                                                                              #
-# Arquivo de configuracao modificado por : Victor                              #
-#                                                                              #
 # Esse arquivo de configuracao vem por padrao em (~/.config/i3/config)         #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
@@ -39,7 +43,7 @@ exec --no-startup-id compton                                                    
 exec --no-startup-id nm-applet                                                   #
 exec --no-startup-id flameshot                                                   #
 exec --no-startup-id volumeicon                                                  #
-exec_always --no-startup-id xautolock -time 5  -locker "i3lock-fancy" && systemctl suspend, mode "default"
+exec_always --no-startup-id xautolock -time 50  -locker "i3lock-fancy" && systemctl suspend, mode "default"
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #=================================================================================

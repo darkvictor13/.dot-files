@@ -1,17 +1,19 @@
+# Arquivo de configuracao modificado por :
+# __     ___      _
+# \ \   / (_) ___| |_ ___  _ __
+#  \ \ / /| |/ __| __/ _ \| '__|
+#   \ V / | | (__| || (_) | |
+#    \_/  |_|\___|\__\___/|_|
+#
 ################################################################################
-#                                                                              #
-# Arquivo de configuracao modificado por : Victor                              #
-#                                                                              #
 # Esse arquivo de configuracao vem por padrao em (~/.config/termite/config)    #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
-# (ln -s ~/Repos/config-Arch-linux/i3status.conf ~/.config/termite/config)     #
+# (ln -s ~/Repos/.dot-files/termite ~/.config/termite)                         #
 #                                                                              # 
 ################################################################################
 
-
 [colors]
-
 # special
 foreground				= #ffff99
 foreground_bold		= #ffff99

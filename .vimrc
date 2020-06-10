@@ -1,11 +1,15 @@
+"# Arquivo de configuracao modificado por :
+"# __     ___      _
+"# \ \   / (_) ___| |_ ___  _ __
+"#  \ \ / /| |/ __| __/ _ \| '__|
+"#   \ V / | | (__| || (_) | |
+"#    \_/  |_|\___|\__\___/|_|
+"#
 "################################################################################
-"#                                                                              #
-"# Arquivo de configuração modificado por : Victor                              #
-"#                                                                              #
 "# Esse arquivo de configuração vem por padrão em (~/.vimrc)                    #
 "#                                                                              #
 "# Ou seja meu link simbólico ficou assim                                       #
-"# (ln -s ~/Repos/config-Arch-linux/.vimrc ~/.vimrc)							              #
+"# (ln -s ~/Repos/.dot-files/.vimrc ~/.vimrc)							                      #
 "#                                                                              # 
 "################################################################################
 

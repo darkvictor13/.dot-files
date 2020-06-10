@@ -1,11 +1,15 @@
+# Arquivo de configuracao modificado por :
+# __     ___      _
+# \ \   / (_) ___| |_ ___  _ __
+#  \ \ / /| |/ __| __/ _ \| '__|
+#   \ V / | | (__| || (_) | |
+#    \_/  |_|\___|\__\___/|_|
+#
 ################################################################################
-#                                                                              #
-# Arquivo de configuracao modificado por : Victor                              #
-#                                                                              #
 # Esse arquivo de configuracao vem por padrao em (~/.zshrc)                    #
 #                                                                              #
 # Ou seja meu link simbolico ficou assim                                       #
-# (ln -s ~/Repos/config-Arch-linux/i3status.conf ~/.zshrc)                     #
+# (ln -s ~/Repos/.dot-files/.zshrc ~/.zshrc)                                   #
 #                                                                              # 
 ################################################################################
 
@@ -147,13 +151,16 @@ function auto_git() {
 	git push
 }
 # faz o neofetch colorido
-alias neofetch="neofetch | lolcat"
+alias neofetch='figlet -oc "ArchLinux"| lolcat && figlet -oc "DoVictor"| lolcat && neofetch | lolcat'
+# abre o vifm a partir do script
 alias vifm="~/.config/vifm/scripts/vifmrun"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
-# Muda o path do dump
 
-
+# iniciando com o terminal
+# figlet -oc "Arch Linux"| lolcat
+# figlet -oc "Victor"| lolcat
+# neofetch | lolcat
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
