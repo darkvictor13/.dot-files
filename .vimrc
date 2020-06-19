@@ -17,13 +17,16 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+" configura a tecla leader
+let mapleader =","
+
 " ########### Os meus plugins ########### 
 
 " lightline
 set noshowmode
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'powerline',
+      \ 'colorscheme': 'onedark',
       \     'active': {
 			\     'left' : [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
       \			'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
@@ -101,6 +104,7 @@ syntax enable
 set showmatch
 set number
 set relativenumber
+set showcmd
 
 " arruma o sistema de busca da tecla [/]
 set hlsearch
@@ -110,9 +114,12 @@ nnoremap <leader><space> :nohlsearch<CR>
 " Arrumando a path
 set path=$PWD/**
 
+" Abrindo arquivos latex de forma correta
+autocmd BufRead,BufNewFile *.tex set filetype=tex
+
 " Compilar em c
 autocmd FileType c map <F6> :silent !gcc %:r.c -o %:r -lm &<Enter>
-autocmd FileType cpp map <F6> :silent !g++ %:r.c -o %:r &<Enter>
+autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
 
 " Carrega dicionario em português
 set spell spelllang=pt 
@@ -120,3 +127,7 @@ set encoding=utf-8
 
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus
+
+" Disables automatic commenting on newline:
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+

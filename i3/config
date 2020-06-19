@@ -103,9 +103,9 @@ client.background       #ffffff
 
 ## configurando i3-gaps ##
 #=================================================================================
-for_window[class="^.*"]border pixel 2                                            #
-gaps inner 10                                                                    #
-gaps outer 4                                                                     #
+for_window[class="^.*"]border pixel 2
+gaps inner 10
+gaps outer 4
 #=================================================================================
 
 
@@ -153,7 +153,7 @@ mode "resize" {
 
 ############## A ############## 
 bindsym $mod+a focus parent
-# bindsym $mod+Shift+a
+bindsym $mod+Shift+a exec termite -e 'alsamixer'
 
 ############## B ############## 
 bindsym $mod+b exec termite -e "vim .vimrc"
@@ -209,7 +209,7 @@ bindsym $mod+h split h
 # bindsym $mod+Shift+
 
 ############## M ############## 
-# bindsym $mod+
+bindsym $mod+m exec killall mpd, exec termite -e ncmpcpp, exec termite -e ncmpcpp, exec mpd
 # bindsym $mod+Shift+
 
 ############## N ############## 

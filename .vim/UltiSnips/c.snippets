@@ -3,7 +3,7 @@ extends c
 snippet uri "Inicia o programa p uri"
 #include <stdio.h>
 
-int main ()\{
+int main () \{
 	$1
 	return 0;
 }
@@ -26,25 +26,25 @@ fprintf($1, "$0");
 endsnippet
 
 snippet for "Faz um for para vetor"
-for(int i = 0; i < t; i++)\{
+for(int i = 0; i < t; i++) \{
 	$1	
 }
 endsnippet
 
 snippet for "Faz um for para string"
-for(int i = 0; str[i]; i++)\{
+for(int i = 0; str[i]; i++) \{
 	$1
 } 
 endsnippet
 
 snippet for "Faz um for para contar casos"
-for(scanf("%d", casos); casos > 0; casos--)\{
+for(scanf("%d", &casos); casos > 0; casos--) \{
 	$1		
 }
 endsnippet
 
 snippet main "Faz o int main"
-int main (int argc, char *argv[])\{
+int main (int argc, char *argv[]) \{
 	$1
 	return 0;
 }
@@ -57,15 +57,15 @@ typedef struct {
 endsnippet
 
 snippet if "if simples"
-if ($1)\{
+if ($1) \{
 	
 }
 endsnippet
 
 snippet ifel "if else"
-if($1)\{
+if($1) \{
 	
-}else\{
+}else \{
 	
 }
 endsnippet
