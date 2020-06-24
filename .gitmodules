@@ -46,3 +46,9 @@
 [submodule ".vim/bundle/vimtex"]
 	path = .vim/bundle/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule "nvim/bundle/powerline"]
+	path = nvim/bundle/powerline
+	url = https://github.com/powerline/powerline.git
+[submodule "nvim/bundle/vim-be-good"]
+	path = nvim/bundle/vim-be-good
+	url = https://github.com/ThePrimeagen/vim-be-good.git

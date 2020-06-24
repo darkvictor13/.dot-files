@@ -1,9 +1,9 @@
-sw_volume: 96
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
-current: 3
-time: 246.021000
+current: 13
+time: 324.752000
 random: 1
 repeat: 0
 single: 0
@@ -25,4 +25,10 @@ playlist_begin
 10:Morada/Nao_Ha_Amor_Igual.mp3
 11:diversos/Living_Hope.mp3
 12:diversos/Labareda.mp3
+13:Hillsong/Grace_To_Grace.mp3
+14:Hillsong/Oceans.mp3
+15:Hillsong/What_A_Beautiful_Name.mp3
+16:Luma-Epildio/Santo_Deus.mp3
+17:Luma-Epildio/Que_Amor_E_Esse.mp3
+18:Luma-Epildio/Quem_Es_Pra_Mim.mp3
 playlist_end

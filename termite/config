@@ -19,8 +19,8 @@ foreground				= #ffff99
 foreground_bold		= #ffff99
 cursor						= #ffff99
 # background = rgba (6, 3, 2, 0.9)
-background = rgba (0, 0, 0, 0.97)
-# background = rgba (14, 14, 14, 0.95)
+# background = rgba (0, 0, 0, 0.97)
+background = rgba (14, 14, 14, 0.95)
 
 # black
 color0  = #000000

@@ -104,15 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 #configs do luke smith
 
 bindkey -v
@@ -150,6 +141,16 @@ function auto_git() {
 	git commit -m "$1"
 	git push
 }
+
+# funcao compilando
+function compile() {
+  gcc $1.c -o $1 -lm
+}
+
+function compile_run() {
+  gcc $1.c -o $1 -lm && ./$1
+}
+
 # faz o neofetch colorido
 alias neofetch='figlet -oc "ArchLinux"| lolcat && figlet -oc "DoVictor"| lolcat && neofetch | lolcat'
 # abre o vifm a partir do script
@@ -158,6 +159,7 @@ alias vifm="~/.config/vifm/scripts/vifmrun"
 alias temp="curl wttr.in"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
+
 
 # iniciando com o terminal
 # figlet -oc "Arch Linux"| lolcat
