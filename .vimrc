@@ -95,7 +95,8 @@ set exrc
 set secure
 
 " Configuração de aspectos visuais
-color spacecamp_lite
+"color spacecamp_lite
+color one-dark
 "color dracula
 "color space-vim-dark
 "color aprendice
@@ -122,7 +123,7 @@ autocmd FileType c map <F6> :silent !gcc %:r.c -o %:r -lm &<Enter>
 autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
 
 " Carrega dicionario em português
-set spell spelllang=pt 
+autocmd FileType c, cpp, txt, tex set spell spelllang=pt 
 set encoding=utf-8
 
 " clipboard compartilhada, vim e resto do sistema
@@ -130,4 +131,3 @@ set clipboard=unnamedplus
 
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-

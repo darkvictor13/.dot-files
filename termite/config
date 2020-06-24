@@ -36,15 +36,15 @@ color10 = #5af78e
 
 # yellow
 color3  = #ffff00
-color11 = #ffff33
+color11 = #ffff60
 
 # laranja
 color4  = #ff8000
 color12 = #ff9933
 
-# amarelo claro
-color5  = #ffff60
-color13 = #f1fa8c
+# azul
+color5  = #003297
+color13 = #0032ff
 
 # cyan
 color6  = #8be9fd
