@@ -138,7 +138,7 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 # funcao para adicionar no git de forma automatica
 function auto_git() {
 	git add -A
-	git commit -m "$1"
+  [ -z "$1" ] && git commit || git commit -m "$1"
 	git push
 }
 
@@ -151,6 +151,12 @@ function compile_run() {
   gcc $1.c -o $1 -lm && ./$1
 }
 
+##### ALIAS ##### 
+# faz o terminal se esconder
+alias zathura="devour zathura"
+alias vlc="devour vlc"
+alias cvlc="devour cvlc"
+
 # faz o neofetch colorido
 alias neofetch='figlet -oc "ArchLinux"| lolcat && figlet -oc "DoVictor"| lolcat && neofetch | lolcat'
 # abre o vifm a partir do script
@@ -159,6 +165,8 @@ alias vifm="~/.config/vifm/scripts/vifmrun"
 alias temp="curl wttr.in"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
+# atualiza mirrors antes de operacoes do pacman
+alias "pacman -S"="mirrors && pacman -S"
 
 
 # iniciando com o terminal

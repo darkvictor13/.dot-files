@@ -30,132 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor/Music
-	Projeto_Sola
-8
-d/home/victor/Music/Projeto_Sola
-	..
-0
-d/home/victor/Music
-	Qv
-9
-d/home/victor/Music/Qv
-	..
-0
-d/home/victor/Music
-	Rodolfo_Abrantes
-10
-d/home/victor/Music/Rodolfo_Abrantes
-	..
-0
-d/home/victor/Music
-	Som_Do_Reino
-11
-d/home/victor/Music/Som_Do_Reino
-	..
-0
-d/home/victor/Music
-	diversos
-12
-d/home/victor/Music/diversos
-	..
-0
-d/home/victor/Music
-	skilet
-13
-d/home/victor/Music/skilet
-	..
-0
-d/home/victor/Music
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	vifm
-17
-d/home/victor/.config/vifm
-	colors
-1
-d/home/victor/.config/vifm/colors
-	..
-0
-d/home/victor/.config/vifm
-	..
-0
-d/home/victor/.config
-	..
-0
-d/home/victor
-	.local
-5
-d/home
-	victor
-2
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	i3
-8
-d/home/victor/.config/i3
-	..
-0
-d/home/victor/.config
-	..
-0
-d/home/victor
-	Pictures
-5
-d/home/victor/Pictures
-	wallpapers
-2
-d/home/victor/Pictures/wallpapers
-	..
-0
-d/home/victor/Pictures
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	i3
-8
-d/home/victor/.config/i3
-	..
-0
-d/home/victor/.config
-	..
-0
-d/home/victor
-	Video
-21
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	..
-0
-d/home/victor/Video
-	..
-0
-d/home/victor
-	Documents
-16
-d/home/victor/Documents
-	..
-0
-d/home/victor
-	Video
-7
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	..
-0
 d/home/victor/Video
 	..
 0
@@ -328,8 +202,134 @@ d/home/victor/Video
 	Tio_Nico_Romanos
 1
 d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:07-OK-_Homossexualidade.mp4
-7
+	..
+0
+d/home/victor/Video
+	..
+0
+d/home/victor
+	..
+0
+d/home
+	victor
+2
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	vifm
+23
+d/home/victor/.config/vifm
+	vifmrc
+5
+d/home/victor/.config
+	vifm
+23
+d/home/victor
+	.config
+2
+d/home
+	victor
+2
+d/home/victor
+	Video
+23
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor/Video/Tio_Nico_Romanos
+	..
+0
+d/home/victor/Video
+	..
+0
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	vifm
+23
+d/home/victor/.config/vifm
+	..
+0
+d/home/victor/.config
+	vifm
+23
+d/home/victor
+	Video
+23
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor/Video/Tio_Nico_Romanos
+	..
+0
+d/home/victor/Video
+	..
+0
+d/home/victor
+	Docs
+17
+d/home/victor/Docs
+	Gr
+2
+d/home/victor/Docs/Gr
+	Minhas-palavras
+2
+d/home/victor/Docs/Gr/Minhas-palavras
+	pdf
+1
+d/home/victor/Docs/Gr/Minhas-palavras/pdf
+	..
+0
+d/home/victor/Docs/Gr/Minhas-palavras
+	..
+0
+d/home/victor/Docs/Gr
+	Estudos-jefinho
+1
+d/home/victor/Docs/Gr/Estudos-jefinho
+	..
+0
+d/home/victor/Docs/Gr
+	..
+0
+d/home/victor/Docs
+	Livros
+3
+d/home/victor/Docs/Livros
+	..
+0
+d/home/victor/Docs
+	Livros
+3
+d/home/victor
+	Video
+23
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:10-OK-_Paulo_e_o_Moralista.mp4
+10
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor
+	Repos
+22
+d/home/victor/Repos
+	Todos-Uri
+5
+d/home/victor/Repos/Todos-Uri
+	2542-Runtime-error-malloc.c
+27
+d/home/victor/Repos
+	Todos-Uri
+5
+d/home/victor
+	plot.svg
+32
 d
 
 # Right window history (oldest to newest):
@@ -351,9 +351,16 @@ D
 :mkdir nvim
 :touch init.vim
 :mkdir evangelismo
+:open
+:q
 
 # Search history (oldest to newest):
 /.config
+/vifm
+/Vid
+/Doc
+/esta
+/pl
 
 # Prompt history (oldest to newest):
 pdarkdesert.vifm
@@ -378,6 +385,11 @@ pEstudo sobre evangellismo 1ª lição.pdf
 pEpisodio_N:05-OK-_A_Origem_da_Idolatria.mp4
 pEpisodio_N:06-OK-_Abandonados.mp4
 pEpisodio_N:07-OK-_Homossexualidade.mp4
+pEpisodio_N:08-OK-_Mentes_Reprovadas.mp4
+pEpisodio_N:09-OK-_O_Fundo_do_Poço.mp4
+pEpisodio_N:10-OK-_Paulo_e_o_Moralista.mp4
+p2542(Runtime error)-malloc.c
+p2542-Runtime-error-malloc.c
 
 # Local filter history (oldest to newest):
 
@@ -406,7 +418,7 @@ t/home/victor/.local/share/vifm/Trash/000_kuguiyg
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

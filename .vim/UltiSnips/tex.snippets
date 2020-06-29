@@ -127,14 +127,59 @@ snippet ra
 \$\rightarrow\$$1
 endsnippet
 
-snippet init
-\documentclass[12pt, a4paper] \{article}
+snippet gr
+\documentclass[12pt, a4paper]\{article}
 \usepackage[utf8]\{inputenc}
-\usepackage\{graphicx}
+\usepackage\{graphicx, color}
 \usepackage\{indentfirst}
+\usepackage\{fancyhdr}
+\pagestyle\{fancy}
+\fancyhead[L]\{Estudo Carta:($1)}
+\fancyhead[R]\{Autor: Victor Emanuel Almeida}
+\fancyfoot[C]\{Página \thepage}
 
 \begin\{document}
-	$1
+	$2
+\end\{document}
+endsnippet
+
+snippet sd
+\documentclass[12pt, a4paper]\{article}
+\usepackage[utf8]\{inputenc}
+\usepackage\{indentfirst}
+\graphicspath\{\{images/}}
+\usepackage\{graphicx, color}
+\usepackage\{indentfirst}
+\usepackage\{fancyhdr}
+\usepackage\{colortbl}
+\usepackage[dvipsnames]\{xcolor}
+\usepackage\{tikz -timing}
+\usepackage\{tikz}
+\usetikzlibrary\{karnaugh}
+\pagestyle\{fancy}
+\fancyhead[L]\{Livro: Tocci Capítulos $1}
+\fancyhead[R]\{Aluno: Victor Emanuel Almeida}
+\fancyfoot[C]\{Trabalho página \thepage}
+
+\definecolor{LogisimKMapColor0}{RGB}{128,0,0}
+\definecolor{LogisimKMapColor1}{RGB}{230,25,75}
+\definecolor{LogisimKMapColor2}{RGB}{250,190,190}
+\definecolor{LogisimKMapColor3}{RGB}{170,110,40}
+\definecolor{LogisimKMapColor4}{RGB}{245,130,48}
+\definecolor{LogisimKMapColor5}{RGB}{255,215,180}
+\definecolor{LogisimKMapColor6}{RGB}{128,128,0}
+\definecolor{LogisimKMapColor7}{RGB}{255,255,25}
+\definecolor{LogisimKMapColor8}{RGB}{210,245,60}
+\definecolor{LogisimKMapColor9}{RGB}{0,0,128}
+\definecolor{LogisimKMapColor10}{RGB}{145,30,180}
+\definecolor{LogisimKMapColor11}{RGB}{60,180,175}
+\definecolor{LogisimKMapColor12}{RGB}{0,130,203}
+\definecolor{LogisimKMapColor13}{RGB}{230,190,255}
+\definecolor{LogisimKMapColor14}{RGB}{170,255,195}
+\definecolor{LogisimKMapColor15}{RGB}{240,50,230}
+
+\begin\{document}
+	$2
 \end\{document}
 endsnippet
 

@@ -158,7 +158,7 @@ bindsym $mod+d exec rofi -show run
 #bindsym $mod+d exec --no-startup-id "rofi -show drun -font \\"Source Code 12\\" -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
 
 # Ativa o botao de desligar (Ele foi definido acima)
-bindsym $mod+Shift+d mode "$mode_system"
+#bindsym $mod+Shift+d mode "$mode_system"
  
 ############## E ############## 
 # Volta ao layout padrao da interface grafica

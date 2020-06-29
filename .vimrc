@@ -95,11 +95,16 @@ set exrc
 set secure
 
 " Configuração de aspectos visuais
+
+" Esquemas de cores
 "color spacecamp_lite
-color one-dark
+"color one-dark
 "color dracula
 "color space-vim-dark
 "color aprendice
+color abstract
+"color atom
+
 syntax on
 syntax enable
 set showmatch
@@ -123,7 +128,10 @@ autocmd FileType c map <F6> :silent !gcc %:r.c -o %:r -lm &<Enter>
 autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
 
 " Carrega dicionario em português
-autocmd FileType c, cpp, txt, tex set spell spelllang=pt 
+autocmd FileType c set spell spelllang=pt 
+autocmd FileType cpp set spell spelllang=pt 
+autocmd FileType txt set spell spelllang=pt 
+autocmd FileType tex set spell spelllang=pt 
 set encoding=utf-8
 
 " clipboard compartilhada, vim e resto do sistema
