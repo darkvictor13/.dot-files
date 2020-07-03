@@ -1,7 +1,9 @@
-sw_volume: 64
+sw_volume: 80
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
-state: stop
+state: pause
+current: 4
+time: 232.697000
 random: 1
 repeat: 0
 single: 0
@@ -14,4 +16,5 @@ playlist_begin
 1:Hillsong/What_A_Beautiful_Name.mp3
 2:Hillsong/Oceans.mp3
 3:Hillsong/So_Will_I.mp3
+4:Hillsong/I_Surrender.mp3
 playlist_end

@@ -27,7 +27,7 @@ endsnippet
 
 snippet for "Faz um for para vetor"
 for(int i = 0; i < t; i++) \{
-	$1	
+	$1
 }
 endsnippet
 
@@ -39,9 +39,14 @@ endsnippet
 
 snippet for "Faz um for para contar casos"
 for(scanf("%d", &casos); casos > 0; casos--) \{
-	$1		
+	$1
 }
 endsnippet
+
+snippet wh
+while($1) \{
+	$2
+}
 
 snippet main "Faz o int main"
 int main (int argc, char *argv[]) \{
@@ -64,9 +69,9 @@ endsnippet
 
 snippet ifel "if else"
 if($1) \{
-	
+	$2	
 }else \{
-	
+	$3	
 }
 endsnippet
 

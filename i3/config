@@ -42,10 +42,11 @@ exec --no-startup-id nitrogen --restore&                                        
 exec --no-startup-id compton                                                     #
 exec --no-startup-id nm-applet                                                   #
 exec --no-startup-id flameshot                                                   #
-#exec --no-startup-id volumeicon                                                  #
-exec_always --no-startup-id xautolock -time 5 -locker "i3lock-fancy" && systemctl suspend, mode "default"
+exec_always --no-startup-id xautolock -time 15 -locker "i3lock-fancy" && systemctl suspend, mode "default"
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec --no-startup-id i3-msg 'workspace 1; exec termite -e "/home/victor/.config/vifm/scripts/vifmrun"'
+exec --no-startup-id "gksudo mirrors"
 #=================================================================================
 
 # configurando a barra de informacoes do i3 #
@@ -100,19 +101,20 @@ gaps outer 4
 
                                ## Botao de desligar ##
 #==========================================================================================
-set $Locker i3lock && sleep 1
-
-set $mode_system |[l] =  | [r] = ↻ | [d] = ⏻|
-mode "$mode_system" {
-		bindsym l exec --no-startup-id i3lock-fancy && systemctl suspend, mode "default"
-    bindsym r exec --no-startup-id systemctl reboot, mode "default"
-    bindsym d exec --no-startup-id systemctl poweroff -i, mode "default"
-
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-
+# set $Locker i3lock && sleep 1
+# 
+# set $mode_system |[l] =  | [r] = ↻ | [d] = ⏻|
+# mode "$mode_system" {
+# 		bindsym l exec --no-startup-id i3lock-fancy && systemctl suspend, mode "default"
+#     bindsym r exec --no-startup-id systemctl reboot, mode "default"
+#     bindsym d exec --no-startup-id systemctl poweroff -i, mode "default"
+# 
+#     # back to normal: Enter or Escape
+#     bindsym Return mode "default"
+#     bindsym Escape mode "default"
+# }
+# 
+# Mudei para um script do rofi.
 #==========================================================================================
 
                       ## Botao de redimensionar aplicacoes ##
@@ -154,11 +156,12 @@ bindsym $mod+Shift+c reload
 
 ############## D ############## 
 # start dmenu 
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun
 #bindsym $mod+d exec --no-startup-id "rofi -show drun -font \\"Source Code 12\\" -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
 
 # Ativa o botao de desligar (Ele foi definido acima)
 #bindsym $mod+Shift+d mode "$mode_system"
+bindsym $mod+Shift+d exec --no-startup-id "rofi -show run -run-command 'gksudo {cmd}'"
  
 ############## E ############## 
 # Volta ao layout padrao da interface grafica
@@ -210,11 +213,11 @@ bindsym $mod+m exec killall mpd, exec termite -e ncmpcpp, exec termite -e ncmpcp
 # bindsym $mod+Shift+
 
 ############## P ############## 
-bindsym $mod+p exec "power-menu.sh"
+bindsym $mod+p exec --no-startup-id ~/.config/rofi/scripts/menu_powermenu.sh
 # bindsym $mod+Shift+
 
 ############## Q ############## 
-# bindsym $mod+
+bindsym $mod+q exec --no-startup-id ~/.config/rofi/scripts/menu_quicklinks.sh
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -240,7 +243,7 @@ bindsym $mod+Shift+t exec "xrandr --output eDP --brightness 1"
 ############## V ############## 
 # Abre abas na vertical
 bindsym $mod+v split v
-# bindsym $mod+Shift+
+bindsym $mod+Shift+v exec --no-startup-id termite -e "~/.config/vifm/scripts/vifmrun"
 
 ############## W ############## 
 # Muda o modo da tela para "tabbed" que seria mais ou menos criar um menu mostrando os apps, porem so um por tela
@@ -267,10 +270,10 @@ bindsym $mod+Return exec termite
 ############## <PrtSc> ############## 
 # tira print de uma parte da tela
 bindsym Print exec "flameshot gui"
-# tira print de toda tela e guarda em Screenshots
-bindsym $mod+Shift+Print exec "flameshot full -p ~/Pictures/Screenshots"
 # tira print de toda tela e deixa no clipboard
 bindsym $mod+Print exec "flameshot full -c"
+# tira print de toda tela e guarda em Screenshots
+bindsym $mod+Shift+Print exec "flameshot full -p ~/Pictures/Screenshots"
 
 ############## <Numeros> ############## 
 # Mudando de workspace

@@ -165,14 +165,6 @@ alias vifm="~/.config/vifm/scripts/vifmrun"
 alias temp="curl wttr.in"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
-# atualiza mirrors antes de operacoes do pacman
-alias "pacman -S"="mirrors && pacman -S"
-
-
-# iniciando com o terminal
-# figlet -oc "Arch Linux"| lolcat
-# figlet -oc "Victor"| lolcat
-# neofetch | lolcat
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
@@ -186,9 +178,5 @@ source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit installer's chunk
-
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
-
-#zinit ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh" nocompile'!'
-#zinit light trapd00r/LS_COLORS

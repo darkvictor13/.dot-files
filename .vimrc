@@ -134,6 +134,10 @@ autocmd FileType txt set spell spelllang=pt
 autocmd FileType tex set spell spelllang=pt 
 set encoding=utf-8
 
+" Arrumando palavras escritas errado
+nnoremap <leader>z [s1z=ea
+inoremap <leader>z <esc>[s1z=ea
+
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus
 
