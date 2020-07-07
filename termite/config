@@ -55,7 +55,9 @@ color7  = #bfbfbf
 color15 = #e6e6e6
 
 [options]
-font = Source Code Pro 11
+#font = Source Code Pro 11
+#font = Hurmit Nerd Font Mono 11
+font = Hack 11
 # font = Comfortaa-Light 14
 # font = Ubuntu Mono derivative Powerline 12
 clickable_url = true

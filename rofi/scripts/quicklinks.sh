@@ -8,7 +8,7 @@
 rofi_command="rofi -theme themes/quicklinks.rasi"
 
 # Links
-google=""
+arch=""
 facebook=""
 twitter=""
 github=""
@@ -16,12 +16,12 @@ reddit=""
 youtube=""
 
 # Variable passed to rofi
-options="$google\n$facebook\n$twitter\n$github\n$reddit\n$youtube"
+options="$arch\n$facebook\n$twitter\n$github\n$reddit\n$youtube"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Open In  :  Firefox" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Open In  :  Brave" -dmenu -selected-row 0)"
 case $chosen in
-    $google)
-        firefox --new-tab https://www.google.com
+    $arch)
+        brave --new-tab https://wiki.archlinux.org/
         ;;
     $facebook)
         firefox --new-tab https://www.facebook.com
@@ -39,4 +39,3 @@ case $chosen in
         firefox --new-tab https://www.youtube.com
         ;;
 esac
-

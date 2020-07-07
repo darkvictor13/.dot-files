@@ -7,4 +7,5 @@ configuration {
   yoffset: -50;
   xoffset: -20;
 }
+
 @import "/home/victor/.config/rofi/themes/flat-orange.rasi"

@@ -9,31 +9,31 @@ rofi_command="rofi -theme themes/menu/quicklinks.rasi"
 
 # Links
 arch=""
-facebook=""
-twitter=""
+whatsapp="甆"
+biblia=""
+uri=""
 github=""
-reddit=""
 youtube=""
 
 # Variable passed to rofi
-options="$arch\n$facebook\n$twitter\n$github\n$reddit\n$youtube"
+options="$arch\n$whatsapp\n$biblia\n$uri\n$github\n$youtube"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Open In : Brave" -dmenu -selected-row 0)"
 case $chosen in
     $arch)
-        brave --new-tab https://wiki.archlinux.org/
+        brave --new-tab https://wiki.archlinux.org
         ;;
-    $facebook)
-        brave --new-tab https://www.facebook.com
+    $whatsapp)
+        brave --new-tab https://web.whatsapp.com
         ;;
-    $twitter)
-        brave --new-tab https://www.twitter.com
+    $biblia)
+        brave --new-tab https://my.bible.com/pt
+        ;;
+    $uri)
+        brave --new-tab https://www.urionlinejudge.com.br/judge/pt/problems/index/1?page=8
         ;;
     $github)
         brave --new-tab https://www.github.com
-        ;;
-    $reddit)
-        brave --new-tab https://www.reddit.com
         ;;
     $youtube)
         brave --new-tab https://www.youtube.com

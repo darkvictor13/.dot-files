@@ -8,35 +8,27 @@
 rofi_command="rofi -theme themes/menu/apps.rasi"
 
 # Links
-terminal=""
 files="ﱮ"
-editor=""
-browser=""
-music=""
-settings="漣"
+editor=""
+music=""
+audio=""
 
 # Variable passed to rofi
-options="$terminal\n$files\n$editor\n$browser\n$music\n$settings"
+options="$files\n$editor\n$music\n$audio"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Most Used" -dmenu -selected-row 0)"
 case $chosen in
-    $terminal)
-        termite &
-        ;;
     $files)
-        thunar &
+        termite -e "/home/victor/.config/vifm/scripts/vifmrun" &
         ;;
     $editor)
-        geany &
-        ;;
-    $browser)
-        firefox &
+        termite -e vim &
         ;;
     $music)
-        lxmusic &
+       i3-msg 'workspace number 10'; killall mpd; termite -e "ncmpcp"; mpd; termite -e "ncmpcpp"&
         ;;
-    $settings)
-        xfce4-settings-manager &
+    $audio)
+        pavucontrol &
         ;;
 esac
 

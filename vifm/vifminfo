@@ -13,16 +13,16 @@
 	/home/victor/
 	..
 1591497768
-'z
-	/home/victor/.config/vifm
-	..
-1591497768
+'r
+	/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
+1593975832
 
 # Bookmarks:
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -30,168 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:68_Quando_a_doutrina_vira_doxologia.mp4
-40
-d/home/victor/Video
-	..
-0
-d/home/victor
-	.config
-3
-d/home/victor/.config
-	nvim
-14
-d/home/victor/.config/nvim
-	..
-0
-d/home/victor/.config
-	nvim
-14
-d/home/victor
-	Docs
-2
-d/home/victor/Docs
-	Livros
-3
-d/home/victor/Docs/Livros
-	evangelismo
-1
-d/home/victor/Docs/Livros/evangelismo
-	Estudo sobre evangellismo 1ª lição.pdf
-6
-d/home/victor/Docs/Livros
-	evangelismo
-1
-d/home/victor/Docs/Livros/evangelismo
-	..
-0
-d/home/victor/Docs/Livros
-	evangelismo
-1
-d/home/victor/Docs
-	..
-0
-d/home/victor
-	Docs
-2
-d/home/victor/Docs
-	facul
-4
-d/home/victor/Docs/facul
-	2-ano
-1
-d/home/victor/Docs/facul/2-ano
-	Sd
-1
-d/home/victor/Docs/facul/2-ano/Sd
-	Documentacao-chips
-1
-d/home/victor/Docs/facul/2-ano/Sd/Documentacao-chips
-	sn74hc02.pdf
-4
-d/home/victor/Docs/facul/2-ano/Sd
-	Documentacao-chips
-1
-d/home/victor/Docs/facul/2-ano
-	Sd
-1
-d/home/victor/Docs/facul
-	2-ano
-1
-d/home/victor/Docs
-	Livros
-3
-d/home/victor/Docs/Livros
-	evangelismo
-1
-d/home/victor/Docs
-	Livros
-3
-d/home/victor/Docs/Livros
-	evangelismo
-1
-d/home/victor/Docs
-	Livros
-3
-d/home/victor
-	Docs
-2
-d/home
-	victor
-2
-d/home/victor
-	Video
-8
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	..
-0
-d/home/victor/Video
-	..
-0
-d/home/victor
-	..
-0
-d/home
-	victor
-2
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	vifm
-23
-d/home/victor/.config/vifm
-	vifmrc
-5
-d/home/victor/.config
-	vifm
-23
-d/home/victor
-	.config
-2
-d/home
-	victor
-2
-d/home/victor
-	Video
-23
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	..
-0
-d/home/victor/Video
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	vifm
-23
-d/home/victor/.config/vifm
-	..
-0
-d/home/victor/.config
-	vifm
-23
-d/home/victor
-	Video
-23
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	..
-0
-d/home/victor/Video
-	..
-0
 d/home/victor
 	Docs
 17
@@ -330,6 +168,168 @@ d/home/victor/Video
 d/home/victor/Video/Tio_Nico_Romanos
 	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
 9
+d/home/victor
+	Downloads
+16
+d/home/victor/Downloads
+	..
+0
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	polybar
+18
+d/home/victor/.config/polybar
+	..
+0
+d/home/victor
+	save-polybar
+21
+d/home/victor/save-polybar
+	..
+0
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	polybar
+18
+d/home/victor/.config/polybar
+	config.ini
+3
+d/home/victor/.config
+	polybar
+18
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	vifm
+24
+d/home/victor
+	Video
+20
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
+9
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor
+	Video
+20
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
+9
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	polybar
+18
+d/home/victor/.config/polybar
+	scripts
+2
+d/home/victor
+	Pictures
+18
+d/home/victor/Pictures
+	wallpapers
+2
+d/home/victor/Pictures/wallpapers
+	Deus_transforma_luz_minhas_trevas_lampada.jpg
+10
+d/home/victor
+	Docs
+15
+d/home/victor/Docs
+	facul
+4
+d/home/victor/Docs/facul
+	2-ano
+1
+d/home/victor/Docs/facul/2-ano
+	Sd
+1
+d/home/victor/Docs/facul/2-ano/Sd
+	circuits
+5
+d/home/victor/Docs/facul/2-ano/Sd/circuits
+	WhatsApp Image 2020-06-27 at 15.43.21.jpeg
+5
+d/home/victor/Docs/facul/2-ano/Sd
+	circuits
+5
+d/home/victor/Docs/facul/2-ano
+	Sd
+1
+d/home/victor/Docs/facul
+	2-ano
+1
+d/home/victor/Docs
+	Jesus
+2
+d/home/victor/Docs/Jesus
+	Estudos-cartas
+1
+d/home/victor/Docs/Jesus/Estudos-cartas
+	..
+0
+d/home/victor/Docs/Jesus
+	..
+0
+d/home/victor/Docs
+	Anotacoes
+1
+d/home/victor/Docs/Anotacoes
+	..
+0
+d/home/victor/Docs
+	Anotacoes
+1
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	i3
+12
+d/home/victor/.config/i3
+	..
+0
+d/home/victor/.config
+	i3
+12
+d/home/victor
+	Repos
+19
+d/home/victor/Repos
+	Read-Temperature-Tottem
+4
+d/home/victor/Repos/Read-Temperature-Tottem
+	main
+2
+d/home/victor/Repos/Read-Temperature-Tottem/main
+	..
+0
+d/home/victor/Repos/Read-Temperature-Tottem
+	main
+2
+d/home/victor/Repos
+	.dot-files
+1
+d/home/victor/Repos/.dot-files
+	vifm
+11
+d/home/victor/Repos/.dot-files/vifm
+	colors
+1
+d/home/victor/Repos/.dot-files/vifm/colors
+	darkdesert.vifm
+1
 d
 
 # Right window history (oldest to newest):
@@ -340,8 +340,50 @@ D/home/victor/Repos
 	MinhaArduinoIde
 1
 D/home/victor
-	..
-0
+	Docs
+1
+D/home/victor/Docs
+	facul
+4
+D/home/victor/Docs/facul
+	2-ano
+1
+D/home/victor/Docs/facul/2-ano
+	Sd
+1
+D/home/victor/Docs/facul/2-ano/Sd
+	circuits
+5
+D/home/victor/Docs/facul/2-ano/Sd/circuits
+	ind_dec.circ
+4
+D/home/victor
+	Docs
+1
+D/home/victor/Docs
+	facul
+4
+D/home/victor/Docs/facul
+	2-ano
+1
+D/home/victor/Docs/facul/2-ano
+	Sd
+1
+D/home/victor/Docs/facul/2-ano/Sd
+	circuits
+5
+D/home/victor/Docs/facul/2-ano/Sd/circuits
+	ind_dec.circ
+4
+D/home/victor/Docs/facul/2-ano/Sd
+	circuitos
+4
+D/home/victor/Docs/facul/2-ano/Sd/circuitos
+	display.circ
+11
+D/home/victor
+	Docs
+1
 D
 
 # Command line history (oldest to newest):
@@ -353,17 +395,21 @@ D
 :mkdir evangelismo
 :open
 :q
+:mkdir save-polybar
 
 # Search history (oldest to newest):
 /.config
 /vifm
-/Vid
 /Doc
 /esta
 /pl
 /xi
 /po
 /Video
+/pol
+/Vid
+/.con
+/Repo
 
 # Prompt history (oldest to newest):
 pdarkdesert.vifm
@@ -394,12 +440,12 @@ pEpisodio_N:10-OK-_Paulo_e_o_Moralista.mp4
 p2542(Runtime error)-malloc.c
 p2542-Runtime-error-malloc.c
 pEpisodio_N:11-OK-_O_Dia_da_Ira_de_Deus.mp4
+pi3.config
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/victor/.local/share/vifm/Trash/000_echo
-""/home/victor/.local/share/vifm/Trash/000_kuguiyg
+""/home/victor/.local/share/vifm/Trash/000_ind_dec.circ
 
 # Directory stack (oldest to newest):
 
@@ -418,6 +464,50 @@ t/home/victor/.local/share/vifm/Trash/000_echo
 	/home/victor/echo
 t/home/victor/.local/share/vifm/Trash/000_kuguiyg
 	/home/victor/kuguiyg
+t/home/victor/.local/share/vifm/Trash/001_fonts
+	/home/victor/.config/polybar/fonts
+t/home/victor/.local/share/vifm/Trash/001_scripts
+	/home/victor/.config/polybar/scripts
+t/home/victor/.local/share/vifm/Trash/000_source
+	/home/victor/.config/polybar/source
+t/home/victor/.local/share/vifm/Trash/000_bars.ini
+	/home/victor/.config/polybar/bars.ini
+t/home/victor/.local/share/vifm/Trash/001_colors.ini
+	/home/victor/.config/polybar/colors.ini
+t/home/victor/.local/share/vifm/Trash/001_config.ini
+	/home/victor/.config/polybar/config.ini
+t/home/victor/.local/share/vifm/Trash/002_launch.sh
+	/home/victor/.config/polybar/launch.sh
+t/home/victor/.local/share/vifm/Trash/001_modules.ini
+	/home/victor/.config/polybar/modules.ini
+t/home/victor/.local/share/vifm/Trash/000_tester-file-1.ini
+	/home/victor/.config/polybar/tester-file-1.ini
+t/home/victor/.local/share/vifm/Trash/000_tester-file-2.ini
+	/home/victor/.config/polybar/tester-file-2.ini
+t/home/victor/.local/share/vifm/Trash/000_tester-file-3.ini
+	/home/victor/.config/polybar/tester-file-3.ini
+t/home/victor/.local/share/vifm/Trash/000_tester.sh
+	/home/victor/.config/polybar/tester.sh
+t/home/victor/.local/share/vifm/Trash/000_user_modules.ini
+	/home/victor/.config/polybar/user_modules.ini
+t/home/victor/.local/share/vifm/Trash/000_save-polybar
+	/home/victor/.config/polybar/save-polybar
+t/home/victor/.local/share/vifm/Trash/000_config
+	/home/victor/.config/polybar/config
+t/home/victor/.local/share/vifm/Trash/000_config-t1.ini
+	/home/victor/.config/polybar/config-t1.ini
+t/home/victor/.local/share/vifm/Trash/000_config-t2.ini
+	/home/victor/.config/polybar/config-t2.ini
+t/home/victor/.local/share/vifm/Trash/000_config-t3.ini
+	/home/victor/.config/polybar/config-t3.ini
+t/home/victor/.local/share/vifm/Trash/000_config-t4.ini
+	/home/victor/.config/polybar/config-t4.ini
+t/home/victor/.local/share/vifm/Trash/000_config-t5.ini
+	/home/victor/.config/polybar/config-t5.ini
+t/home/victor/.local/share/vifm/Trash/000_config-t6.ini
+	/home/victor/.config/polybar/config-t6.ini
+t/home/victor/.local/share/vifm/Trash/000_ind_dec.circ
+	/home/victor/ind_dec.circ
 
 # State:
 f

@@ -23,15 +23,30 @@ let mapleader =","
 " ########### Os meus plugins ########### 
 
 " lightline
-set noshowmode
-set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'onedark',
-      \     'active': {
-			\     'left' : [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
-      \			'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
-      \		}
-	  \ }
+"set noshowmode
+"set laststatus=2
+"let g:lightline = {
+"      \ 'colorscheme': 'onedark',
+"      \     'active': {
+"			\     'left' : [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
+"      \			'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
+"      \		}
+"	  \ }
+
+" Vim airline
+"let g:airline_theme='bubblegum'
+"let g:airline_theme='powerlineish'
+let g:airline_theme='deus'
+
+" Nerd Tree
+" Abre Quando vc digita so vim sem arquivo
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Fecha caso so o NERDTree esteja ativo
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Bind para abrir
+map <C-o> :NERDTreeToggle<CR>
+
 
 " YouCompleteMe
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
@@ -62,6 +77,7 @@ let g:UltiSnipsJumpForwardTrigger="<C-n>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 let g:livepreview_previewer = 'zathura'
 let g:livepreview_cursorhold_recompile = 1
+"let g:livepreview_engine = 'latexmk' . '-pdf'
 
 " Criando snippets
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
@@ -73,7 +89,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 "autocmd FileType tex  map <C-p> :silent !evince %:r.pdf &<Enter>
 "autocmd FileType tex  map <C-r> :silent !latexmk -pvc -pdf %:r.tex &<Enter>
 "autocmd FileType tex  map <C-r> :silent !pdflatex %:r.tex &<Enter>
-autocmd BufWinLeave *.tex silent! execute "!latexmk -c"
+autocmd BufWinLeave *.tex silent! execute "!latexmk %:r -pdf && latexmk -c"
 " Preview no latex 
 autocmd FileType tex nmap <F6> :LLPStartPreview <CR> 
 
@@ -101,9 +117,13 @@ set secure
 "color one-dark
 "color dracula
 "color space-vim-dark
-"color aprendice
-color abstract
+"color yellow-moon
+"color abstract
 "color atom
+color wombat256mod
+"color apprentice
+
+"highlight Comment ctermbg=Black ctermfg=White
 
 syntax on
 syntax enable
@@ -130,13 +150,13 @@ autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
 " Carrega dicionario em português
 autocmd FileType c set spell spelllang=pt 
 autocmd FileType cpp set spell spelllang=pt 
-autocmd FileType txt set spell spelllang=pt 
+autocmd FileType text set spell spelllang=pt 
 autocmd FileType tex set spell spelllang=pt 
 set encoding=utf-8
 
 " Arrumando palavras escritas errado
-nnoremap <leader>z [s1z=ea
-inoremap <leader>z <esc>[s1z=ea
+nnoremap <leader>z [s1z=$a
+inoremap <leader>z <esc>[s1z=$a
 
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus

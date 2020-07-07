@@ -22,10 +22,12 @@
 }
 
 window {
-   background-color: @blackdarkest;
-   anchor: north;
-   location: north;
-   y-offset: 20%;
+  show-icons:         true;
+  icon-theme:         "Papirus";
+  location: 5;
+  y-offset: -50;
+  xoffset: -20;
+  background-color: @blackdarkest;
 }
 
 mainbox {
