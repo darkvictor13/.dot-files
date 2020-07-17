@@ -22,21 +22,17 @@ let mapleader =","
 
 " ########### Os meus plugins ########### 
 
-" lightline
-"set noshowmode
-"set laststatus=2
-"let g:lightline = {
-"      \ 'colorscheme': 'onedark',
-"      \     'active': {
-"			\     'left' : [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
-"      \			'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
-"      \		}
-"	  \ }
-
 " Vim airline
 "let g:airline_theme='bubblegum'
-"let g:airline_theme='powerlineish'
-let g:airline_theme='deus'
+let g:airline_theme='powerlineish'
+"let g:airline_theme='deus'
+
+" Vim polyglot
+" Detectando arquivo do i3
+aug i3config_ft_detection
+  au!
+  au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
+aug end
 
 " Nerd Tree
 " Abre Quando vc digita so vim sem arquivo
@@ -82,6 +78,12 @@ let g:livepreview_cursorhold_recompile = 1
 " Criando snippets
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 
+" Indent Lines
+"let g:indent_guides_enable_on_vim_startup = 1
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+
 " ########### Configs do vim puro ########### 
 
 " Trabalhando com latex
@@ -115,12 +117,12 @@ set secure
 " Esquemas de cores
 "color spacecamp_lite
 "color one-dark
-"color dracula
+color dracula
 "color space-vim-dark
 "color yellow-moon
 "color abstract
 "color atom
-color wombat256mod
+"color wombat256mod
 "color apprentice
 
 "highlight Comment ctermbg=Black ctermfg=White
@@ -152,6 +154,8 @@ autocmd FileType c set spell spelllang=pt
 autocmd FileType cpp set spell spelllang=pt 
 autocmd FileType text set spell spelllang=pt 
 autocmd FileType tex set spell spelllang=pt 
+autocmd FileType gitcommit set spell spelllang=pt 
+
 set encoding=utf-8
 
 " Arrumando palavras escritas errado

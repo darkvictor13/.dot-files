@@ -22,7 +22,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -30,201 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor
-	Docs
-17
-d/home/victor/Docs
-	Gr
-2
-d/home/victor/Docs/Gr
-	Minhas-palavras
-2
-d/home/victor/Docs/Gr/Minhas-palavras
-	pdf
-1
-d/home/victor/Docs/Gr/Minhas-palavras/pdf
-	..
-0
-d/home/victor/Docs/Gr/Minhas-palavras
-	..
-0
-d/home/victor/Docs/Gr
-	Estudos-jefinho
-1
-d/home/victor/Docs/Gr/Estudos-jefinho
-	..
-0
-d/home/victor/Docs/Gr
-	..
-0
-d/home/victor/Docs
-	Livros
-3
-d/home/victor/Docs/Livros
-	..
-0
-d/home/victor/Docs
-	Livros
-3
-d/home/victor
-	Video
-23
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:10-OK-_Paulo_e_o_Moralista.mp4
-10
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor
-	Repos
-22
-d/home/victor/Repos
-	Todos-Uri
-5
-d/home/victor/Repos/Todos-Uri
-	2542-Runtime-error-malloc.c
-27
-d/home/victor/Repos
-	Todos-Uri
-5
-d/home/victor
-	..
-0
-d/home
-	victor
-2
-d/
-	tmp
-17
-d/tmp
-	.X0-lock
-8
-d/home/victor
-	.xinitrc
-27
-d/home
-	victor
-2
-d/
-	tmp
-17
-d/tmp
-	systemd-private-5f91c90fddb248458a75ae5371a9b04a-systemd-logind.service-4GeW7h
-6
-d/home/victor
-	Video
-15
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:19_Deus_não_nos_deve_nada.mp4
-16
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	i3
-11
-d/home/victor/.config/i3
-	config
-1
-d/home/victor/.config
-	i3
-12
-d/home/victor
-	.config
-2
-d/home
-	victor
-2
-d/
-	tmp
-17
-d/tmp
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	polybar
-18
-d/home/victor/.config/polybar
-	..
-0
-d/home/victor/.config
-	qBittorrent
-20
-d/home/victor
-	Video
-20
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
-9
-d/home/victor
-	Downloads
-16
-d/home/victor/Downloads
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	polybar
-18
-d/home/victor/.config/polybar
-	..
-0
-d/home/victor
-	save-polybar
-21
-d/home/victor/save-polybar
-	..
-0
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	polybar
-18
-d/home/victor/.config/polybar
-	config.ini
-3
-d/home/victor/.config
-	polybar
-18
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	vifm
-24
-d/home/victor
-	Video
-20
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
-9
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor
-	Video
-20
-d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:12_A_hipocrisia_e_seus_efeitos.mp4
-9
 d/home/victor
 	.config
 2
@@ -330,6 +135,201 @@ d/home/victor/Repos/.dot-files/vifm
 d/home/victor/Repos/.dot-files/vifm/colors
 	darkdesert.vifm
 1
+d/home/victor/Video/Tio_Nico_Romanos
+	..
+0
+d/home/victor/Video
+	..
+0
+d/home/victor
+	.config
+2
+d/home/victor/.config
+	i3
+12
+d/home/victor/.config/i3
+	config
+1
+d/home/victor/.config
+	i3
+12
+d/home/victor
+	Docs
+16
+d/home/victor/Docs
+	facul
+4
+d/home/victor/Docs/facul
+	2-ano
+1
+d/home/victor/Docs/facul/2-ano
+	Sd
+1
+d/home/victor/Docs/facul/2-ano/Sd
+	pecas_logisim
+6
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim
+	Logico
+1
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim/Logico
+	..
+0
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim
+	Logico
+1
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim/Logico
+	..
+0
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim
+	decoder_display.circ
+4
+d/home/victor
+	Pictures
+19
+d/home/victor/Pictures
+	wallpapers
+2
+d/home/victor
+	Repos
+20
+d/home/victor/Repos
+	.dot-files
+1
+d/home/victor
+	Video
+21
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor
+	Downloads
+17
+d/home/victor/Downloads
+	..
+0
+d/home/victor
+	Docs
+16
+d/home/victor/Docs
+	scripts
+6
+d/home/victor/Docs/scripts
+	power-menu.sh
+6
+d/home/victor/Docs
+	programacao_Aleatorio
+5
+d/home/victor/Docs/programacao_Aleatorio
+	..
+0
+d/home/victor/Docs
+	uri-torneio
+6
+d/home/victor/Docs/uri-torneio
+	..
+0
+d/home/victor/Docs
+	Anotacoes
+1
+d/home/victor/Docs/Anotacoes
+	2Pedro.txt
+2
+d/home/victor/Docs
+	Jesus
+2
+d/home/victor/Docs/Jesus
+	Gr
+2
+d/home/victor/Docs
+	Livros
+3
+d/home/victor/Docs/Livros
+	evangelismo
+2
+d/home/victor/Docs
+	Palavras
+3
+d/home/victor/Docs/Palavras
+	Estudos-cartas
+1
+d/home/victor/Docs/Palavras/Estudos-cartas
+	..
+0
+d/home/victor/Docs/Palavras
+	Estudos-cartas
+1
+d/home/victor/Docs/Palavras/Estudos-cartas
+	Pedro1.png
+2
+d/home/victor/Docs/Palavras
+	Estudos-cartas
+1
+d/home/victor/Docs
+	Palavras
+3
+d/home/victor
+	Docs
+16
+d/home/victor/Docs
+	Palavras
+3
+d/home/victor/Docs/Palavras
+	Estudos-cartas
+1
+d/home/victor/Docs
+	Palavras
+3
+d/home/victor/Docs/Palavras
+	..
+0
+d/home/victor/Docs
+	facul
+4
+d/home/victor/Docs/facul
+	2-ano
+1
+d/home/victor/Docs/facul/2-ano
+	Sd
+1
+d/home/victor/Docs/facul/2-ano/Sd
+	pecas_logisim
+6
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim
+	Shifts
+2
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim/Shifts
+	..
+0
+d/home/victor/Docs/facul/2-ano/Sd/pecas_logisim
+	decoder_display.circ
+6
+d/home/victor
+	Docs
+16
+d/home/victor/Docs
+	Livros
+3
+d/home/victor/Docs/Livros
+	Coronavírus_e_Cristo-John_Piper.pdf
+9
+d/home/victor/Docs
+	Livros
+3
+d/home/victor
+	Pictures
+19
+d/home/victor/Pictures
+	Biblia
+1
+d/home/victor/Pictures/Biblia
+	trindade
+2
+d/home/victor/Pictures/Biblia/trindade
+	1Pedro-1:2.jpg
+1
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:15_[Ok]_Debaixo_do_Pecado.mp4
+15
 d
 
 # Right window history (oldest to newest):
@@ -382,8 +382,53 @@ D/home/victor/Docs/facul/2-ano/Sd/circuitos
 	display.circ
 11
 D/home/victor
-	Docs
+	Repos
+5
+D/home/victor/Repos
+	scripts
+5
+D/home/victor/Repos/scripts
+	..
+0
+D/home/victor
+	save-polybar
+7
+D/home/victor/save-polybar
+	config
 1
+D/home/victor
+	Music
+3
+D/home/victor/Music
+	Isra_Subira
+4
+D/home/victor
+	Pictures
+4
+D/home/victor/Pictures
+	..
+0
+D/home/victor
+	Repos
+5
+D/home/victor/Repos
+	scripts
+5
+D/home/victor
+	Video
+6
+D/home/victor/Video
+	..
+0
+D/home/victor
+	Video
+6
+D/home/victor/Video
+	..
+0
+D/home/victor
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -394,8 +439,14 @@ D
 :touch init.vim
 :mkdir evangelismo
 :open
-:q
 :mkdir save-polybar
+:mkdir Logico
+:mkdir Shifts
+::mkdir
+:mkdir Biblia
+:mkdir trindade
+:mkdir santidade
+:q
 
 # Search history (oldest to newest):
 /.config
@@ -412,6 +463,7 @@ D
 /Repo
 
 # Prompt history (oldest to newest):
+pEpisodio_N:14_[OK]_Meu_pecado_e_a_Glória_de_Deus.mp4
 pdarkdesert.vifm
 phipocritas_mascara.jpg
 p[Luma_Elpidio]-Você_Veio_Pra_Ficar.mp3
@@ -441,11 +493,20 @@ p2542(Runtime error)-malloc.c
 p2542-Runtime-error-malloc.c
 pEpisodio_N:11-OK-_O_Dia_da_Ira_de_Deus.mp4
 pi3.config
+pEpisodio_N:12-OK-_A_hipocrisia_e_seus_efeitos.mp4
+pconfig
+pPalavras
+pJesus
+pa_máfia_dos_mendigos_Yago_Martins.pdf
+p1_Coríntios-Hernandes_Dias_Lopes.pdf
+p2_Coríntios-Hernandes_Dias_Lopes.pdf
+p1Pedro-1:2.jpg
+pEpisodio_N:13-OK-_A_verdadeira_circuncisão.mp4
+pEpisodio_N:15_[Ok]_Debaixo_do_Pecado.mp4
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/victor/.local/share/vifm/Trash/000_ind_dec.circ
 
 # Directory stack (oldest to newest):
 
@@ -508,6 +569,22 @@ t/home/victor/.local/share/vifm/Trash/000_config-t6.ini
 	/home/victor/.config/polybar/config-t6.ini
 t/home/victor/.local/share/vifm/Trash/000_ind_dec.circ
 	/home/victor/ind_dec.circ
+t/home/victor/.local/share/vifm/Trash/000_polybar-6.tar.gz
+	/home/victor/Downloads/polybar-6.tar.gz
+t/home/victor/.local/share/vifm/Trash/000_iosevka_regular.ttf
+	/home/victor/Downloads/iosevka_regular.ttf
+t/home/victor/.local/share/vifm/Trash/000_feather.ttf
+	/home/victor/Downloads/feather.ttf
+t/home/victor/.local/share/vifm/Trash/000_FantasqueSansMono_Regular.ttf
+	/home/victor/Downloads/FantasqueSansMono_Regular.ttf
+t/home/victor/.local/share/vifm/Trash/002_scripts
+	/home/victor/Docs/scripts
+t/home/victor/.local/share/vifm/Trash/000_Pedra.png
+	/home/victor/Docs/Palavras/Estudos-cartas/Pedra.png
+t/home/victor/.local/share/vifm/Trash/000_Pedro.png
+	/home/victor/Docs/Palavras/Estudos-cartas/Pedro.png
+t/home/victor/.local/share/vifm/Trash/000_save-images.txt
+	/home/victor/save-images.txt
 
 # State:
 f
