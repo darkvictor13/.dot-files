@@ -158,8 +158,8 @@ autocmd FileType tex set spell spelllang=pt
 autocmd FileType gitcommit set spell spelllang=pt 
 
 " Abre um novo arquivo no modo insert
-
 autocmd BufNewFile * startinsert
+autocmd FileType gitcommit startinsert
 
 set encoding=utf-8
 
