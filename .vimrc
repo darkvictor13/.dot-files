@@ -83,6 +83,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+autocmd FileType tex let g:indentLine_enabled = 0
 
 " ########### Configs do vim puro ########### 
 
@@ -156,11 +157,16 @@ autocmd FileType text set spell spelllang=pt
 autocmd FileType tex set spell spelllang=pt 
 autocmd FileType gitcommit set spell spelllang=pt 
 
+" Abre um novo arquivo no modo insert
+
+autocmd BufNewFile * startinsert
+
 set encoding=utf-8
 
 " Arrumando palavras escritas errado
-nnoremap <leader>z [s1z=$a
-inoremap <leader>z <esc>[s1z=$a
+nnoremap <leader>w wi<Space><ESc>b1z=ei
+nnoremap <leader>z [s1z=A
+inoremap <leader>z <esc>[s1z=A
 
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus

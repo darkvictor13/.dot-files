@@ -21,8 +21,8 @@
 # Bookmarks:
 
 # TUI:
-al
-q0
+ar
+q1
 v2
 ov
 m-1
@@ -427,8 +427,47 @@ D/home/victor/Video
 	..
 0
 D/home/victor
+	Pictures
+5
+D/home/victor/Pictures
+	Biblia
+1
+D/home/victor/Pictures/Biblia
+	evangelismo
+1
+D/home/victor/Pictures/Biblia/evangelismo
 	..
 0
+D/home/victor/Pictures/Biblia
+	santidade
+2
+D/home/victor/Pictures/Biblia/santidade
+	..
+0
+D/home/victor/Pictures/Biblia
+	trindade
+3
+D/home/victor/Pictures/Biblia/trindade
+	..
+0
+D/home/victor/Pictures/Biblia
+	evangelismo
+1
+D/home/victor/Pictures/Biblia/evangelismo
+	..
+0
+D/home/victor/Pictures/Biblia
+	trindade
+3
+D/home/victor/Pictures/Biblia/trindade
+	..
+0
+D/home/victor/Pictures/Biblia
+	evangelismo
+1
+D/home/victor/Pictures/Biblia/evangelismo
+	1_pedro_3_15.jpg
+1
 D
 
 # Command line history (oldest to newest):
