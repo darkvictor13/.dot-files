@@ -167,6 +167,9 @@ alias temp="curl wttr.in"
 # apos dar cd ele da ls automaticamente
 chpwd() ls
 
+####### Variaveis ######
+#export EDITOR='/usr/bin/vim'
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing DHARMA Initiative Plugin Manager (zdharma/zinit)…%f"

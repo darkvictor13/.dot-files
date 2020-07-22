@@ -30,21 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor
-	.config
-2
-d/home/victor/.config
-	polybar
-18
-d/home/victor/.config/polybar
-	scripts
-2
-d/home/victor
-	Pictures
-18
-d/home/victor/Pictures
-	wallpapers
-2
 d/home/victor/Pictures/wallpapers
 	Deus_transforma_luz_minhas_trevas_lampada.jpg
 10
@@ -330,6 +315,21 @@ d/home/victor/Pictures/Biblia/trindade
 d/home/victor/Video/Tio_Nico_Romanos
 	Episodio_N:16_A_Lei_no_Coração.mp4
 16
+d/home/victor/Video
+	Tio_Nico_Romanos
+1
+d/home/victor
+	Docs
+2
+d/home/victor/Docs
+	Livros
+3
+d/home/victor/Docs/Livros
+	Hernandes_Dias_Lopes
+2
+d/home/victor/Docs/Livros/Hernandes_Dias_Lopes
+	1 e 2 Tessalonicenses.pdf
+2
 d
 
 # Right window history (oldest to newest):
@@ -486,6 +486,7 @@ D
 :mkdir trindade
 :mkdir santidade
 :q
+:unzip
 
 # Search history (oldest to newest):
 /.config
@@ -546,6 +547,7 @@ pEpisodio_N:15_[Ok]_Debaixo_do_Pecado.mp4
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/victor/.local/share/vifm/Trash/000_2 Timóteo(copia).pdf
 
 # Directory stack (oldest to newest):
 
@@ -624,11 +626,13 @@ t/home/victor/.local/share/vifm/Trash/000_Pedro.png
 	/home/victor/Docs/Palavras/Estudos-cartas/Pedro.png
 t/home/victor/.local/share/vifm/Trash/000_save-images.txt
 	/home/victor/save-images.txt
+t/home/victor/.local/share/vifm/Trash/000_2 Timóteo(copia).pdf
+	/home/victor/Docs/Livros/Hernandes_Dias_Lopes/2 Timóteo(copia).pdf
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
