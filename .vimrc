@@ -25,6 +25,7 @@ let mapleader =","
 " Vim airline
 "let g:airline_theme='bubblegum'
 let g:airline_theme='powerlineish'
+let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme='deus'
 
 " Vim polyglot
@@ -42,7 +43,21 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Bind para abrir
 map <C-o> :NERDTreeToggle<CR>
-
+" Configurando p git
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+      \ 'Modified'  :'✹',
+      \ 'Staged'    :'✚',
+      \ 'Untracked' :'✭',
+      \ 'Renamed'   :'➜',
+      \ 'Unmerged'  :'═',
+      \ 'Deleted'   :'✖',
+      \ 'Dirty'     :'✗',
+      \ 'Ignored'   :'☒',
+      \ 'Clean'     :'✔︎',
+      \ 'Unknown'   :'?',
+      \ }
+let g:NERDTreeGitStatusShowClean = 1 " default: 0
+let g:NERDTreeGitStatusUseNerdFonts = 1
 
 " YouCompleteMe
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
@@ -85,6 +100,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 autocmd FileType tex let g:indentLine_enabled = 0
 
+
 " ########### Configs do vim puro ########### 
 
 " Trabalhando com latex
@@ -101,13 +117,14 @@ inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
-inoremap { {}<left>
+"inoremap { {}<left>
+autocmd FileType c inoremap { {<Enter><Enter>}<up><Tab>
 
 " Configuração do tab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set expandtab
+set noexpandtab
 
 "impede que o vim execute shellscripts indesejados, modo seguro
 set exrc
@@ -134,6 +151,7 @@ set showmatch
 set number
 set relativenumber
 set showcmd
+set noshowmode
 
 " arruma o sistema de busca da tecla [/]
 set hlsearch
@@ -147,8 +165,12 @@ set path=$PWD/**
 autocmd BufRead,BufNewFile *.tex set filetype=tex
 
 " Compilar em c
-autocmd FileType c map <F6> :silent !gcc %:r.c -o %:r -lm &<Enter>
+autocmd FileType c map <F6> :!gcc %:r.c -o %:r -lm &<Enter>
+"autocmd FileType c map <F6> :silent !gcc %:r -lm && ./a.out &<Enter>
+"autocmd FileType c map <F6> :QuickRunExecute<CR>
 autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
+"autocmd FileType c map <leader>s :terminal
+"map <F6> :QuickRunExecute<CR>
 
 " Carrega dicionario em português
 autocmd FileType c set spell spelllang=pt 
@@ -164,7 +186,7 @@ autocmd FileType gitcommit startinsert
 set encoding=utf-8
 
 " Arrumando palavras escritas errado
-nnoremap <leader>w wi<Space><ESc>b1z=ei
+nnoremap <leader>w 1z=ea
 nnoremap <leader>z [s1z=A
 inoremap <leader>z <esc>[s1z=A
 

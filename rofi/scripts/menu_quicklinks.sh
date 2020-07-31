@@ -27,7 +27,7 @@ case $chosen in
         brave --new-tab https://web.whatsapp.com
         ;;
     $biblia)
-        brave --new-tab https://my.bible.com/pt
+        brave --new-tab https://www.bibliaonline.com.br/acf
         ;;
     $uri)
         brave --new-tab https://www.urionlinejudge.com.br/judge/pt/problems/index/1?page=8

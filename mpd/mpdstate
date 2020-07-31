@@ -1,9 +1,9 @@
-sw_volume: 64
+sw_volume: 70
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
 current: 15
-time: 194.775000
+time: 85.570000
 random: 1
 repeat: 0
 single: 0
@@ -28,4 +28,10 @@ playlist_begin
 13:Isra_Subira/(Som_Do_Reino)-Me_Leva_Pra_Casa.mp3
 14:Qv/(Phill)-Filipenses.mp3
 15:Qv/(Bruno_Guimaraes)-A_Morte_Nao_Parou_Jesus.mp3
+16:skilet/Terrify_the_Dark.mp3
+17:Som_Do_Reino/Puro_E_Simples.mp3
+18:Hillsong/Oceans.mp3
+19:Som_Do_Reino/Uma_Coisa.mp3
+20:Hillsong/Broken_Vessels.mp3
+21:Som_Do_Reino/Deseable.mp3
 playlist_end

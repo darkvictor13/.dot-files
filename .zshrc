@@ -17,7 +17,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/victor/.oh-my-zsh"
+export ZSH="/home/victor/zsh/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -152,7 +152,7 @@ function compile_run() {
 }
 
 ##### ALIAS ##### 
-# faz o terminal se esconder
+# faz o terminal se esconde 
 alias zathura="devour zathura"
 alias vlc="devour vlc"
 alias cvlc="devour cvlc"
@@ -171,14 +171,15 @@ chpwd() ls
 #export EDITOR='/usr/bin/vim'
 
 ### Added by Zinit's installer
-if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
+if [[ ! -f $HOME/zsh/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing DHARMA Initiative Plugin Manager (zdharma/zinit)…%f"
-    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
-    command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
+    command mkdir -p "$HOME/zsh/.zinit" && command chmod g-rwX "$HOME/zsh/.zinit"
+    command git clone https://github.com/zdharma/zinit "$HOME/zsh/.zinit/bin" && \
         print -P "%F{33}▓▒░ %F{34}Installation successful.%f" || \
         print -P "%F{160}▓▒░ The clone has failed.%f"
 fi
-source "$HOME/.zinit/bin/zinit.zsh"
+
+source "$HOME/zsh/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit installer's chunk
