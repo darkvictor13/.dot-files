@@ -135,7 +135,7 @@ snippet gr
 \documentclass[12pt, a4paper]\{article}
 \usepackage[utf8]\{inputenc}
 \usepackage\{graphicx, color}
-\usepackage\{indentfirst}
+\usepackage\{indentfirst, framed}
 \usepackage\{fancyhdr}
 \pagestyle\{fancy}
 \fancyhead[L]\{Estudo Carta:($1)}
@@ -197,4 +197,13 @@ endsnippet
 
 snippet ind
 \indent $1
+endsnippet
+
+snippet ap
+\subsection{Capítulo $1, verso $2}
+
+\begin{framed}
+	$3
+\end{framed}
+\$\hookrightarrow\$ $0
 endsnippet
