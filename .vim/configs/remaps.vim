@@ -1,9 +1,11 @@
 " Colocando os auto complete que estou acostumado
 inoremap " ""<left>
 autocmd FileType vim inoremap " " 
+autocmd FileType sh inoremap # # 
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
+inoremap { {}<left>
 autocmd FileType c inoremap { {<Enter><Enter>}<up><Tab>
 
 " Arrumando palavras escritas errado
