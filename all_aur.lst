@@ -1,17 +1,18 @@
-arduino-git 1.8.13.r6.gbf24880d7-1
-brave-bin 1:1.10.93-1
-cronwhip 2015-6
-gksu 2.0.2-6
-i3lock-color-git r691.720e2b4-1
-i3lock-fancy-git r176.1734f77-1
-lightdm-settings 1.4.0-1
-lightdm-slick-greeter 1.4.0-1
-multibootusb 9.2.0-4
-nerd-fonts-hack 2.1.0-3
-nerd-fonts-hermit 2.1.0-2
-nerd-fonts-source-code-pro 2.1.0-1
-polybar 3.4.3-1
-timeshift 20.03-1
-ttf-comfortaa 3.100-1
-yay 9.4.7-1
-zoom 5.0.418682.0603-1
+arduino-git
+brave-bin
+fritzing
+gksu
+i3lock-color-git
+i3lock-fancy-git
+lightdm-settings
+lightdm-slick-greeter
+multibootusb
+nerd-fonts-hack
+nerd-fonts-hermit
+nerd-fonts-source-code-pro
+polybar
+timeshift
+ttf-comfortaa
+ventoy-bin
+yay
+zoom

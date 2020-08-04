@@ -18,8 +18,10 @@
 HISTFILE=~/zsh/.zsh_history
 # Path to your oh-my-zsh installation.
 export ZSH="/home/victor/zsh/.oh-my-zsh"
+ZSH_CUSTOM=$HOME/zsh
 # Escolhe o tema
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
+ZSH_THEME="victor"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -62,7 +64,8 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
+#declare -A ZINIT[HOME_DIR] "~/zsh/.zinit"
+#ZINIT
 ### Added by Zinit's installer
 if [[ ! -f $HOME/zsh/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing DHARMA Initiative Plugin Manager (zdharma/zinit)…%f"
@@ -75,6 +78,8 @@ fi
 source "$HOME/zsh/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
+
+
 ### End of Zinit installer's chunk
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting

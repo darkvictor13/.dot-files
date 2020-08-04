@@ -47,10 +47,10 @@ neovim
 network-manager-applet
 networkmanager
 nitrogen
+ntp
 openssh
 os-prober
 pacman-contrib
-pandoc
 papirus-icon-theme
 patch
 pavucontrol
@@ -83,7 +83,6 @@ volumeicon
 waybar
 wget
 which
-woeusb
 xautolock
 xdo
 xf86-input-synaptics

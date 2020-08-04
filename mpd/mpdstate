@@ -1,7 +1,9 @@
 sw_volume: 70
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
-state: stop
+state: pause
+current: 7
+time: 207.702000
 random: 1
 repeat: 0
 single: 0
@@ -23,4 +25,6 @@ playlist_begin
 10:skilet/Terrify_the_Dark.mp3
 11:skilet/Back_to_Life.mp3
 12:skilet/Anchor.mp3
+13:Som_Do_Reino/Puro_E_Simples.mp3
+14:Alessandro_VIllas_Boas/(Jesus_Copy)-O_Fogo_Nunca_Dorme.mp3
 playlist_end

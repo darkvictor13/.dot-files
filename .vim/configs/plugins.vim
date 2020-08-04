@@ -63,15 +63,15 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Latex live Preview
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<C-n>"
-let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 let g:livepreview_previewer = 'zathura'
 let g:livepreview_cursorhold_recompile = 1
 "let g:livepreview_engine = 'latexmk' . '-pdf'
 
 " Criando snippets
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<leader>p"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Indent Lines
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
