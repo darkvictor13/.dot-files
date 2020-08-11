@@ -100,3 +100,9 @@
 [submodule "zsh/.zinit/bin"]
 	path = zsh/.zinit/bin
 	url = https://github.com/zdharma/zinit.git
+[submodule ".vim/bundle/rainbow"]
+	path = .vim/bundle/rainbow
+	url = https://github.com/luochen1990/rainbow.git
+[submodule ".vim/bundle/rainbow_parentheses.vim"]
+	path = .vim/bundle/rainbow_parentheses.vim
+	url = https://github.com/junegunn/rainbow_parentheses.vim.git
