@@ -1,7 +1,9 @@
 " Vim airline
-" let g:airline_theme='bubblegum'
+let g:airline_theme='bubblegum'
 " let g:airline_theme='deus'
-let g:airline_theme='powerlineish'
+" let g:airline_theme='powerlineish'
+let g:airline_symbols_ascii = 1
+let g:airline_powerline_fonts = 1
 " let g:airline#extensions#branch#enabled=1
 " if !exists('g:airline_symbols')
   " let g:airline_symbols = {}

@@ -6,7 +6,7 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
-autocmd FileType c inoremap { {<Enter><Enter>}<up><Tab>
+autocmd FileType c,cpp inoremap { {<Enter>}<Esc>O
 
 " Arrumando palavras escritas errado
 nnoremap <leader>w 1z=ea

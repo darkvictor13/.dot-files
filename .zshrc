@@ -15,7 +15,7 @@
 ###############################################################
 
 # Muda o local do history file
-HISTFILE=~/zsh/.zsh_history
+HISTFILE=~/.zsh_history
 # Path to your oh-my-zsh installation.
 export ZSH="/home/victor/zsh/.oh-my-zsh"
 ZSH_CUSTOM=$HOME/zsh

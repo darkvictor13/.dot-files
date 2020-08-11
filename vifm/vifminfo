@@ -30,15 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor
-	Video
-21
-d/home/victor/Video
-	Tio_Nico_Romanos
-1
-d/home/victor
-	Downloads
-17
 d/home/victor/Downloads
 	..
 0
@@ -328,41 +319,20 @@ d/home/victor/Video/Iago_Martins
 	Soterologia
 1
 d/home/victor/Video/Iago_Martins/Soterologia
-	SOBERANIA_DE_DEUS_vs_RESPONSABILIDADE_DO_HOMEM.mp4
-10
+	..
+0
+d/home/victor/Video/Iago_Martins
+	Soterologia
+1
+d/home/victor/Video
+	Tio_Nico_Romanos
+2
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:18_Tudo_pela_graça_de_Deus.mp4
+18
 d
 
 # Right window history (oldest to newest):
-D/home/victor
-	Repos
-5
-D/home/victor/Repos
-	MinhaArduinoIde
-1
-D/home/victor
-	Docs
-1
-D/home/victor/Docs
-	facul
-4
-D/home/victor/Docs/facul
-	2-ano
-1
-D/home/victor/Docs/facul/2-ano
-	Sd
-1
-D/home/victor/Docs/facul/2-ano/Sd
-	circuits
-5
-D/home/victor/Docs/facul/2-ano/Sd/circuits
-	ind_dec.circ
-4
-D/home/victor
-	Docs
-1
-D/home/victor/Docs
-	facul
-4
 D/home/victor/Docs/facul
 	2-ano
 1
@@ -613,6 +583,54 @@ D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro
 	(ponteiro)12.c
 12
 D/home/victor
+	Docs
+2
+D/home/victor/Docs
+	Importante
+2
+D/home/victor/Docs/Importante
+	dados_pessoais
+2
+D/home/victor/Docs/Importante/dados_pessoais
+	..
+0
+D/home/victor/Docs/Importante
+	..
+0
+D/home/victor/Docs
+	..
+0
+D/home/victor
+	.Pendrives
+1
+D/home/victor/.Pendrives
+	Musicas
+1
+D/home/victor/.Pendrives/Musicas
+	Morada
+2
+D/home/victor/.Pendrives/Musicas/Morada
+	..
+0
+D/home/victor/.Pendrives/Musicas
+	Qv
+4
+D/home/victor/.Pendrives/Musicas/Qv
+	..
+0
+D/home/victor/.Pendrives/Musicas
+	Gospel
+1
+D/home/victor/.Pendrives/Musicas/Gospel
+	..
+0
+D/home/victor/.Pendrives
+	..
+0
+D/home/victor
+	.Pendrives
+1
+D/home/victor/.Pendrives
 	..
 0
 D
@@ -641,6 +659,7 @@ D
 :mkdir 1Joao
 :vim resumo-1-Joao.tex
 :touch resumo-1-Joao.tex
+:mkdir Gospel
 
 # Search history (oldest to newest):
 /.config
@@ -655,6 +674,8 @@ D
 /Vid
 /.con
 /Repo
+/.Pe
+/.P
 
 # Prompt history (oldest to newest):
 pEpisodio_N:14_[OK]_Meu_pecado_e_a_Glória_de_Deus.mp4
@@ -702,10 +723,16 @@ pEpisodio_N:15_[OK]_Debaixo_do_Pecado.mp4
 pDEUS_É_O_AUTOR_DO_PECADO?.mp4
 pSOBERANIA_DE_DEUS_vs.RESPONSABILIDADE_DO_HOMEM.mp4
 pSOBERANIA_DE_DEUS_vs_RESPONSABILIDADE_DO_HOMEM.mp4
+pEpisodio_N:17_[OK]_Nada_de_mim.mp4
+pEpisodio_N:16_[OK]_A_Lei_no_Coração.mp4
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Bruno_Guimarães)-A_morte_não_parou_Jesus.mp3
+""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Carol_Cassiano)-Romanos_8.mp3
+""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Rudney_de_Paula)-A_Melhor_Parte.mp3
+""/home/victor/.Pendrives/Musicas/Qv/[Redenção]-(Phill)-Filipenses.mp3
 
 # Directory stack (oldest to newest):
 
@@ -798,6 +825,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0
