@@ -8,7 +8,7 @@ autocmd BufRead,BufNewFile *.tex set filetype=tex
 
 " Compilar em c
 autocmd FileType c map <F6> :!gcc %:r.c -o %:r -lm &<Enter>
-autocmd FileType cpp map <F6> :silent !g++ %:r.cpp -o %:r &<Enter>
+autocmd FileType cpp map <F6> :!g++ %:r.cpp -o %:r &<Enter>
 
 " Carrega dicionario em português
 autocmd FileType c,cpp,text,tex,gitcommit set spell spelllang=pt 

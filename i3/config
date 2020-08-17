@@ -40,13 +40,14 @@ font pango:Source Code Pro 20px
 # Aplicacoes que iniciam com o sistema #
 #=================================================================================
 exec --no-startup-id nitrogen --restore&                                         #
-exec --no-startup-id compton                                                     #
+exec --no-startup-id picom                                                       #
+exec --no-startup-id syncthing
 exec --no-startup-id nm-applet                                                   #
 exec --no-startup-id flameshot                                                   #
 exec_always --no-startup-id xautolock -time 15 -locker "i3lock-fancy" && systemctl suspend, mode "default"
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork           #
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# exec --no-startup-id i3-msg 'workspace 1; exec alacritty -e "/home/victor/.config/vifm/scripts/vifmrun"'
+# exec --no-startup-id i3-msg 'workspace 1; exec termite -e "/home/victor/.config/vifm/scripts/vifmrun"'
 # exec --no-startup-id "gksudo mirrors"
 #=================================================================================
 
@@ -144,7 +145,7 @@ mode "resize" {
 
 ############## A ############## 
 bindsym $mod+a focus parent
-bindsym $mod+Shift+a exec alacritty -e 'alsamixer'
+bindsym $mod+Shift+a exec termite -e 'alsamixer'
 
 ############## B ############## 
 bindsym $mod+b exec brave
@@ -203,8 +204,8 @@ bindsym $mod+h split h
 # bindsym $mod+Shift+
 
 ############## M ############## 
-bindsym $mod+m exec killall mpd, exec alacritty -e ncmpcpp, exec alacritty -e ncmpcpp, exec mpd
-# bindsym $mod+m exec i3-msg 'workspace 10; exec killall mpd, exec alacritty -e ncmpcpp, exec alacritty -e ncmpcpp, exec mpd'
+bindsym $mod+m exec killall mpd, exec termite -e ncmpcpp, exec termite -e ncmpcpp, exec mpd
+# bindsym $mod+m exec i3-msg 'workspace 10; exec killall mpd, exec termite -e ncmpcpp, exec termite -e ncmpcpp, exec mpd'
 # bindsym $mod+Shift+
 
 ############## N ############## 
@@ -246,7 +247,7 @@ bindsym $mod+Shift+t exec "xrandr --output eDP --brightness 1"
 ############## V ############## 
 # Abre abas na vertical
 bindsym $mod+v split v
-bindsym $mod+Shift+v exec --no-startup-id alacritty -e "~/.config/vifm/scripts/vifmrun"
+bindsym $mod+Shift+v exec --no-startup-id termite -e "~/.config/vifm/scripts/vifmrun"
 
 ############## W ############## 
 # Muda o modo da tela para "tabbed" que seria mais ou menos criar um menu mostrando os apps, porem so um por tela
@@ -267,7 +268,7 @@ bindsym $mod+w layout tabbed
 
 ############## <Enter> ############## 
 # Abre o terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec termite
 # bindsym $mod+Shift+Return
 
 ############## <PrtSc> ############## 
