@@ -1,9 +1,9 @@
 sw_volume: 70
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
-state: play
-current: 2
-time: 474.578000
+state: pause
+current: 4
+time: 18.940000
 random: 1
 repeat: 0
 single: 0
@@ -15,4 +15,8 @@ playlist_begin
 0:Qv/(Carol_Cassiano)-Romanos_8.mp3
 1:Hillsong/Broken_Vessels.mp3
 2:Hillsong/Oceans.mp3
+3:diversos/Quebra_O_Silencio.mp3
+4:diversos/Ruja_O_Leao.mp3
+5:diversos/Vitorioso_Es.mp3
+6:diversos/Labareda.mp3
 playlist_end

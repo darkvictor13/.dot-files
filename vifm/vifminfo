@@ -30,21 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/victor/Downloads
-	..
-0
-d/home/victor
-	Docs
-16
-d/home/victor/Docs
-	scripts
-6
-d/home/victor/Docs/scripts
-	power-menu.sh
-6
-d/home/victor/Docs
-	programacao_Aleatorio
-5
 d/home/victor/Docs/programacao_Aleatorio
 	..
 0
@@ -330,6 +315,21 @@ d/home/victor/Video
 d/home/victor/Video/Tio_Nico_Romanos
 	Episodio_N:18_Tudo_pela_graça_de_Deus.mp4
 18
+d/home/victor/Video
+	Tio_Nico_Romanos
+2
+d/home/victor
+	Pictures
+5
+d/home/victor/Pictures
+	wallpapers
+3
+d/home/victor/Pictures/wallpapers
+	ao_Rei_eterno_Deus_unico_imortal_invisivel_sejam_honra_gloria_para_sempre.jpg
+18
+d/home/victor/Video/Tio_Nico_Romanos
+	Episodio_N:19_Deus_não_nos_deve_nada.mp4
+19
 d
 
 # Right window history (oldest to newest):
@@ -678,6 +678,7 @@ D
 /.P
 
 # Prompt history (oldest to newest):
+pEpisodio_N:18_[OK]_Tudo_pela_graça_de_Deus.mp4
 pEpisodio_N:14_[OK]_Meu_pecado_e_a_Glória_de_Deus.mp4
 pdarkdesert.vifm
 phipocritas_mascara.jpg
