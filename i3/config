@@ -40,7 +40,8 @@ font pango:Source Code Pro 20px
 # Aplicacoes que iniciam com o sistema #
 #=================================================================================
 exec --no-startup-id nitrogen --restore&                                         #
-exec --no-startup-id compton                                                     #
+exec --no-startup-id picom                                                       #
+exec --no-startup-id syncthing
 exec --no-startup-id nm-applet                                                   #
 exec --no-startup-id flameshot                                                   #
 exec_always --no-startup-id xautolock -time 15 -locker "i3lock-fancy" && systemctl suspend, mode "default"
