@@ -149,9 +149,12 @@ snippet gr
 \end\{document}
 endsnippet
 
-snippet sd
+snippet facul
 \documentclass[12pt, a4paper]\{article}
 \usepackage[utf8]\{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{titlesec}
+\usepackage{titling}
 \usepackage\{indentfirst}
 \graphicspath\{\{images/}}
 \usepackage\{graphicx, color}
@@ -164,11 +167,16 @@ snippet sd
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usetikzlibrary\{karnaugh}
+
 \pagestyle\{fancy}
 \fancyhead[L]\{Livro: Tocci Capítulos $1}
 \fancyhead[R]\{Aluno: Victor Emanuel Almeida}
 \fancyfoot[C]{\titlerule~Trabalho página \thepage}
 \fancyfoot[C]\{página \thepage}
+
+
+\author{$2}
+\title{$3}
 
 \definecolor{LogisimKMapColor0}{RGB}{128,0,0}
 \definecolor{LogisimKMapColor1}{RGB}{230,25,75}
@@ -188,7 +196,7 @@ snippet sd
 \definecolor{LogisimKMapColor15}{RGB}{240,50,230}
 
 \begin\{document}
-	$2
+	$0
 \end\{document}
 endsnippet
 
