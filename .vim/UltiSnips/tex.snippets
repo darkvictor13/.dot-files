@@ -137,10 +137,12 @@ snippet gr
 \usepackage\{graphicx, color}
 \usepackage\{indentfirst, framed}
 \usepackage\{fancyhdr}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
 \pagestyle\{fancy}
 \fancyhead[L]\{Estudo Carta:($1)}
 \fancyhead[R]\{Autor: Victor Emanuel Almeida}
-\fancyfoot[C]\{Página \thepage}
+\fancyfoot[C]\{\titlerule~Página \thepage}
 
 \begin\{document}
 	$2
@@ -159,11 +161,14 @@ snippet sd
 \usepackage[dvipsnames]\{xcolor}
 \usepackage\{tikz -timing}
 \usepackage\{tikz}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
 \usetikzlibrary\{karnaugh}
 \pagestyle\{fancy}
 \fancyhead[L]\{Livro: Tocci Capítulos $1}
 \fancyhead[R]\{Aluno: Victor Emanuel Almeida}
-\fancyfoot[C]\{Trabalho página \thepage}
+\fancyfoot[C]{\titlerule~Trabalho página \thepage}
+\fancyfoot[C]\{página \thepage}
 
 \definecolor{LogisimKMapColor0}{RGB}{128,0,0}
 \definecolor{LogisimKMapColor1}{RGB}{230,25,75}

@@ -9,6 +9,6 @@ inoremap { {}<left>
 autocmd FileType c,cpp inoremap { {<Enter>}<Esc>O
 
 " Arrumando palavras escritas errado
-nnoremap <leader>w 1z=ea
+nnoremap <leader>w 1z=A
 nnoremap <leader>z [s1z=A
 inoremap <leader>z <esc>[s1z=A

@@ -21,6 +21,7 @@ cursor						= #ffff99
 # background = rgba (6, 3, 2, 0.9)
 # background = rgba (0, 0, 0, 0.97)
 background = rgba (14, 14, 14, 0.95)
+# background = rgba (14, 14, 14, 1)
 
 # black
 color0  = #000000
@@ -36,15 +37,19 @@ color10 = #5af78e
 
 # yellow
 color3  = #ffff00
-color11 = #ffff60
+#color11 = #ffff60
+color11 = #D4EA00
 
 # laranja
 color4  = #ff8000
 color12 = #ff9933
 
 # azul
-color5  = #003297
-color13 = #0032ff
+#color5  = #003297
+#color13 = #0032ff
+
+color5  = #de935f
+color13 = #f0c674
 
 # cyan
 color6  = #8be9fd
@@ -56,7 +61,7 @@ color15 = #e6e6e6
 
 [options]
 #font = Source Code Pro 11
-font = Hack Nerd Font Mono
+font = Hack Nerd Font Mono 11
 
 #font = Hurmit Nerd Font Mono 11
 #font = Hack 11

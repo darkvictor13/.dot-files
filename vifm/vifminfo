@@ -21,8 +21,8 @@
 # Bookmarks:
 
 # TUI:
-al
-q0
+ar
+q1
 v2
 ov
 m-1
@@ -328,101 +328,11 @@ d/home/victor/Pictures/wallpapers
 	ao_Rei_eterno_Deus_unico_imortal_invisivel_sejam_honra_gloria_para_sempre.jpg
 18
 d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:19_Deus_não_nos_deve_nada.mp4
-19
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/victor/Docs/facul
-	2-ano
-1
-D/home/victor/Docs/facul/2-ano
-	Sd
-1
-D/home/victor/Docs/facul/2-ano/Sd
-	circuits
-5
-D/home/victor/Docs/facul/2-ano/Sd/circuits
-	ind_dec.circ
-4
-D/home/victor/Docs/facul/2-ano/Sd
-	circuitos
-4
-D/home/victor/Docs/facul/2-ano/Sd/circuitos
-	display.circ
-11
-D/home/victor
-	Repos
-5
-D/home/victor/Repos
-	scripts
-5
-D/home/victor/Repos/scripts
-	..
-0
-D/home/victor
-	save-polybar
-7
-D/home/victor/save-polybar
-	config
-1
-D/home/victor
-	Music
-3
-D/home/victor/Music
-	Isra_Subira
-4
-D/home/victor
-	Pictures
-4
-D/home/victor/Pictures
-	..
-0
-D/home/victor
-	Repos
-5
-D/home/victor/Repos
-	scripts
-5
-D/home/victor
-	Video
-6
-D/home/victor/Video
-	..
-0
-D/home/victor
-	Video
-6
-D/home/victor/Video
-	..
-0
-D/home/victor
-	Pictures
-5
-D/home/victor/Pictures
-	Biblia
-1
-D/home/victor/Pictures/Biblia
-	evangelismo
-1
-D/home/victor/Pictures/Biblia/evangelismo
-	..
-0
-D/home/victor/Pictures/Biblia
-	santidade
-2
-D/home/victor/Pictures/Biblia/santidade
-	..
-0
-D/home/victor/Pictures/Biblia
-	trindade
-3
-D/home/victor/Pictures/Biblia/trindade
-	..
-0
-D/home/victor/Pictures/Biblia
-	evangelismo
-1
 D/home/victor/Pictures/Biblia/evangelismo
 	..
 0
@@ -633,6 +543,96 @@ D/home/victor
 D/home/victor/.Pendrives
 	..
 0
+D/home/victor
+	.Pendrives
+2
+D/home/victor/.Pendrives
+	..
+0
+D/home/victor
+	Docs
+24
+D/home/victor/Docs
+	Livros
+4
+D/home/victor/Docs/Livros
+	Ego_Transformado.pdf
+10
+D/home/victor/Docs
+	Livros
+4
+D/home/victor
+	Docs
+24
+D/home/victor/Docs
+	facul
+5
+D/home/victor/Docs/facul
+	2-ano
+2
+D/home/victor/Docs/facul/2-ano
+	LFA
+3
+D/home/victor/Docs/facul/2-ano/LFA
+	..
+0
+D/home/victor/Docs/facul/2-ano
+	LFA
+3
+D/home/victor/Docs/facul
+	2-ano
+2
+D/home/victor/Docs
+	facul
+5
+D/home/victor
+	Docs
+4
+D/home/victor/Docs
+	facul
+5
+D/home/victor/Docs/facul
+	2-ano
+2
+D/home/victor/Docs/facul/2-ano
+	LM
+4
+D/home/victor/Docs/facul/2-ano/LM
+	relat
+3
+D/home/victor/Docs/facul/2-ano/LM/relat
+	images
+1
+D/home/victor/Docs/facul/2-ano/LM/relat/images
+	..
+0
+D/home/victor/Docs/facul/2-ano/LM/relat
+	images
+1
+D/home/victor/Docs/facul/2-ano/LM/relat/images
+	..
+0
+D/home/victor/Docs/facul/2-ano/LM/relat
+	..
+0
+D/home/victor/Docs/facul/2-ano/LM
+	..
+0
+D/home/victor/Docs/facul/2-ano
+	LFA
+3
+D/home/victor/Docs/facul/2-ano/LFA
+	resolucoes-exercicios
+3
+D/home/victor/Docs/facul/2-ano/LFA/resolucoes-exercicios
+	images
+1
+D/home/victor/Docs/facul/2-ano/LFA/resolucoes-exercicios/images
+	automatos
+1
+D/home/victor/Docs/facul/2-ano/LFA/resolucoes-exercicios/images/automatos
+	1-1-d.png
+1
 D
 
 # Command line history (oldest to newest):
@@ -676,6 +676,9 @@ D
 /Repo
 /.Pe
 /.P
+/D
+/E
+/.png
 
 # Prompt history (oldest to newest):
 pEpisodio_N:18_[OK]_Tudo_pela_graça_de_Deus.mp4
@@ -726,14 +729,12 @@ pSOBERANIA_DE_DEUS_vs.RESPONSABILIDADE_DO_HOMEM.mp4
 pSOBERANIA_DE_DEUS_vs_RESPONSABILIDADE_DO_HOMEM.mp4
 pEpisodio_N:17_[OK]_Nada_de_mim.mp4
 pEpisodio_N:16_[OK]_A_Lei_no_Coração.mp4
+pLM P03 VictorAlmeida MarcoPedroso GustavoBorges.tex
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Bruno_Guimarães)-A_morte_não_parou_Jesus.mp3
-""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Carol_Cassiano)-Romanos_8.mp3
-""/home/victor/.Pendrives/Musicas/Qv/[QV_Filhos]-(Rudney_de_Paula)-A_Melhor_Parte.mp3
-""/home/victor/.Pendrives/Musicas/Qv/[Redenção]-(Phill)-Filipenses.mp3
+""/home/victor/.local/share/vifm/Trash/000_01.pdf
 
 # Directory stack (oldest to newest):
 
@@ -818,6 +819,8 @@ t/home/victor/.local/share/vifm/Trash/000_out
 	/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro/out
 t/home/victor/.local/share/vifm/Trash/000_teste.c
 	/home/victor/teste.c
+t/home/victor/.local/share/vifm/Trash/000_01.pdf
+	/home/victor/Docs/facul/2-ano/LM/relat/01.pdf
 
 # State:
 f
