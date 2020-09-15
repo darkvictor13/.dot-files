@@ -8,15 +8,13 @@ function auto_git() {
 # funcao compilando
 function compile() {
   case $1 in
-    *.c)      gcc $1 -o exec -lm  ;;
-    *.cpp)    g++ $1 -o exec      ;;
-    #*.asm)    "nasm -f elf64 $1 && ld  ";;
+    *.c)      gcc $1 -o ${1%.c} -lm;;
+    *.cpp)    g++ $1 -o ${1%.cpp};;
+    *.asm)    nasm -f elf64 $1 && ld ${1%.asm}.o -o ${1%.asm}.x;;
   esac
 }
-function compile_run() {
-  gcc $1.c -o $1 -lm && ./$1
-}
 
+# Funcao 
 ex () {
   if [ -f $1 ] ; then
     case $1 in
