@@ -1,6 +1,6 @@
 " Trabalhando com latex
 " Quando sai do latex exlui arquivos temporarios
-autocmd BufWinLeave *.tex silent! execute "!latexmk %:r -pdf && latexmk -c"
+autocmd BufWinLeave *.tex silent!execute "!latexmk %:r -pdf && latexmk -c"
 " Preview no latex 
 autocmd FileType tex nmap <F6> :LLPStartPreview <CR> 
 " Abrindo arquivos latex de forma correta

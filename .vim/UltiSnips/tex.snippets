@@ -1,5 +1,3 @@
-extends tex
-
 snippet tabelav4
 \begin\{table}[!htb]
 	\centering
@@ -117,14 +115,9 @@ endsnippet
 snippet figure "Sintaxe para importar imagem"
 \begin\{figure}[!htb]
 	\centering
-	\includegraphics[keepaspectratio]\{$2}
-	\caption\{$3}
-	\label\{fig:$0}
+	\includegraphics[keepaspectratio]\{$1}
+	\caption\{\label\{fig:$1}$0}
 \end\{figure}
-endsnippet
-
-snippet comand
-\textbf\{\$\ast\$$1\$\ast$}
 endsnippet
 
 snippet ra 
@@ -158,21 +151,19 @@ snippet facul
 \usepackage\{indentfirst}
 \graphicspath\{\{images/}}
 \usepackage\{graphicx, color}
-\usepackage\{indentfirst}
 \usepackage\{fancyhdr}
 \usepackage\{colortbl}
 \usepackage[dvipsnames]\{xcolor}
 \usepackage\{tikz -timing}
 \usepackage\{tikz}
 \usepackage{fancyhdr}
-\usepackage{titlesec}
+\usepackage{framed}
 \usetikzlibrary\{karnaugh}
 
 \pagestyle\{fancy}
 \fancyhead[L]\{Livro: Tocci Capítulos $1}
 \fancyhead[R]\{Aluno: Victor Emanuel Almeida}
 \fancyfoot[C]{\titlerule~Trabalho página \thepage}
-\fancyfoot[C]\{página \thepage}
 
 
 \author{$2}
@@ -200,23 +191,58 @@ snippet facul
 \end\{document}
 endsnippet
 
+snippet init
+%% Incluindo os pacotes necessários
+\documentclass[12pt, a4paper]\{article}
+\usepackage[utf8]\{inputenc}
+\usepackage[portuguese]\{babel}
+\usepackage\{titlesec}
+\usepackage\{titling}
+\usepackage\{indentfirst}
+\usepackage\{graphicx}
+%%\graphicspath{{images/}}
+\usepackage{wrapfig}
+\usepackage\{fancyhdr}
+\usepackage\{colortbl}
+\usepackage\{color}
+\usepackage\{fancyhdr}
+\usepackage\{colortbl}
+\usepackage\{framed}
+
+%% Estilo da página
+\pagestyle\{fancy}
+\fancyhead[L]\{}
+\fancyhead[R]\{}
+\fancyfoot[L]\{}
+\fancyfoot[R]\{}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+%% Definindo espaçamento
+\titlespacing{\section}{0pt}{*2}{*1.1}
+%%\titlespacing{\subsection}{}{}{}
+
+%%Definindo formato de títulos
+%%\titleformat{comando}[formato, ex:wrap]{mudar fontes}{antes do separador}{separador}{depois do separador}[no fim do comando]
+\titleformat{\section}
+{\large}
+{\thesection )}
+{.2cm}
+{}[\titlerule]
+
+%% Definindo o Autor e o título
+\author\{$2}
+\title\{$3}
+
+\begin\{document}
+	$0
+\end\{document}
+endsnippet
+
 snippet sec "Cria uma secao"
 \section{$1}
 endsnippet
 
 snippet ha "Flecha puxando da linha de cima"
 $\hookrightarrow$ $1
-endsnippet
-
-snippet ind
-\indent $1
-endsnippet
-
-snippet ap
-\subsection{Capítulo $1, verso $2}
-
-\begin{framed}
-	$3
-\end{framed}
-\$\hookrightarrow\$ $0
 endsnippet
