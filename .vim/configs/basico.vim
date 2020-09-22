@@ -10,7 +10,7 @@ set noshowmode
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set expandtab
+set noexpandtab
 " configura a tecla leader
 let mapleader =","
 "impede que o vim execute shellscripts indesejados, modo seguro

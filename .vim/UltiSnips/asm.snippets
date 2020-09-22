@@ -1,0 +1,33 @@
+snippet init
+section .data
+	; Aqui coloque as variáveis inicializadas
+	; nome_var: tam[db, dw...] valor, outro_valor
+	$1
+	
+section .bss
+	; Reserva espaços de memória
+	; nome_var: res[tam, b, w] qnt
+	$2
+
+section .text
+	global _start
+
+_start:
+	; Início do código aqui
+	$0
+
+fim:
+	; chamada de sistema exit
+	mov rax, 0x3c
+	; com parâmetro 0
+	mov rdi, 0
+	syscall
+endsnippet
+
+snippet write
+mov rax, 1  ; 1 == código de chamada de write
+mov rdi, $1 ; onde escrever, 1 é na tela
+mov rsi, $2 ; ponteiro para o buffer
+mov rdx, $3 ; tamanho máximo de escrita
+syscall     
+endsnippet

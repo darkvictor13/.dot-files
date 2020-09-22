@@ -9,7 +9,7 @@ function auto_git() {
 function compile() {
   case $1 in
     *.c)      gcc $1 -o ${1%.c} -lm;;
-    *.cpp)    g++ $1 -o ${1%.cpp};;
+    *.cpp)    g++ -Wall -pedantic $1 -o ${1%.cpp};;
     *.asm)    nasm -f elf64 $1 && ld ${1%.asm}.o -o ${1%.asm}.x;;
   esac
 }

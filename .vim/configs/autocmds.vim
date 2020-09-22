@@ -10,6 +10,11 @@ autocmd BufRead,BufNewFile *.tex set filetype=tex
 autocmd FileType c map <F6> :!gcc %:r.c -o %:r -lm &<Enter>
 autocmd FileType cpp map <F6> :!g++ %:r.cpp -o %:r &<Enter>
 
+" Copilar assembly
+autocmd FileType asm map <F6> :!nasm -f elf64 %:r.asm && ld %:r.o -o %:r.x &<Enter>
+" Não funciona
+" autocmd FileType asm map <F6> :!compile %:r &<Enter>
+
 " Carrega dicionario em português
 autocmd FileType c,cpp,text,tex,gitcommit set spell spelllang=pt 
 
