@@ -198,22 +198,27 @@ snippet init
 \usepackage[portuguese]\{babel}
 \usepackage\{titlesec}
 \usepackage\{titling}
+\usepackage\{enumitem}
 \usepackage\{indentfirst}
 \usepackage\{graphicx}
 %%\graphicspath{{images/}}
-\usepackage{wrapfig}
 \usepackage\{fancyhdr}
-\usepackage\{colortbl}
 \usepackage\{color}
 \usepackage\{fancyhdr}
 \usepackage\{colortbl}
 \usepackage\{framed}
+
+%% Definindo o Autor e o título
+\author\{$2}
+\title\{$3}
+%\newcommand\{\prof}\{Jorge Habib El Khouri}
 
 %% Estilo da página
 \pagestyle\{fancy}
 \fancyhead[L]\{}
 \fancyhead[R]\{}
 \fancyfoot[L]\{}
+\fancyfoot[C]\{}
 \fancyfoot[R]\{}
 \renewcommand{\headrulewidth}{0.7pt}
 \renewcommand{\footrulewidth}{0.3pt}
@@ -229,10 +234,6 @@ snippet init
 {\thesection )}
 {.2cm}
 {}[\titlerule]
-
-%% Definindo o Autor e o título
-\author\{$2}
-\title\{$3}
 
 \begin\{document}
 	$0
