@@ -1,7 +1,9 @@
-sw_volume: 42
+sw_volume: 58
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
-state: stop
+state: pause
+current: 2
+time: 164.618000
 random: 1
 repeat: 0
 single: 0
@@ -12,4 +14,5 @@ mixrampdelay: -1.000000
 playlist_begin
 0:diversos/Vitorioso_Es.mp3
 1:diversos/Ruja_O_Leao.mp3
+2:Luma-Epildio/No_Secreto.mp3
 playlist_end

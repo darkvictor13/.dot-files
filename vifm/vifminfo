@@ -22,7 +22,7 @@
 
 # TUI:
 ar
-q1
+q0
 v2
 ov
 m-1
@@ -328,74 +328,11 @@ d/home/victor/Pictures/wallpapers
 	ao_Rei_eterno_Deus_unico_imortal_invisivel_sejam_honra_gloria_para_sempre.jpg
 18
 d/home/victor/Video/Tio_Nico_Romanos
-	Episodio_N:20_[OK]_O_selo_da_fé_salvadora.mp4
-20
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/victor/Pictures/Biblia
-	evangelismo
-1
-D/home/victor/Pictures
-	Biblia
-1
-D/home/victor
-	Repos
-8
-D/home/victor/Repos
-	ListasC1
-2
-D/home/victor/Repos/ListasC1
-	(3-bim)2-lista-strings
-4
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	ponteiro
-1
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro
-	..
-0
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	indexado
-1
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/indexado
-	..
-0
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	ponteiro
-2
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro
-	(ponteiro)01.c
-1
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	ponteiro
-2
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro
-	(ponteiro)01.c
-1
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	ponteiro
-2
-D/home/victor/Repos/ListasC1
-	(3-bim)lista-pre-prova3
-5
-D/home/victor/Repos/ListasC1/(3-bim)lista-pre-prova3
-	03.c
-4
-D/home/victor/Repos/ListasC1
-	(3-bim)2-lista-strings
-4
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	ponteiro
-2
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/ponteiro
-	(ponteiro)23.c
-23
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
-	indexado
-1
-D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings/indexado
-	01.c
-1
 D/home/victor/Repos/ListasC1/(3-bim)2-lista-strings
 	indexado
 1
@@ -633,6 +570,69 @@ D/home/victor/Docs/facul/2-ano
 D/home/victor/Docs/facul/2-ano/SO
 	exemplo.png
 4
+D/home/victor/Docs/facul/2-ano
+	SO
+5
+D/home/victor/Docs/facul
+	2-ano
+2
+D/home/victor/Docs
+	Jesus
+3
+D/home/victor/Docs/Jesus
+	Gr
+3
+D/home/victor/Docs/Jesus/Gr
+	Estudos-jefinho
+1
+D/home/victor/Docs/Jesus/Gr/Estudos-jefinho
+	Louco_Amor
+1
+D/home/victor/Docs/Jesus/Gr/Estudos-jefinho/Louco_Amor
+	Cap2.doc
+3
+D/home/victor/Docs/Jesus/Gr/Estudos-jefinho
+	Louco_Amor
+1
+D/home/victor/Docs/Jesus/Gr/Estudos-jefinho/Louco_Amor
+	Cap2.doc
+3
+D/home/victor/Docs/Jesus/Gr/Estudos-jefinho
+	..
+0
+D/home/victor/Docs/Jesus/Gr
+	Minhas-palavras
+2
+D/home/victor/Docs/Jesus/Gr/Minhas-palavras
+	tex
+3
+D/home/victor/Docs/Jesus/Gr/Minhas-palavras/tex
+	..
+0
+D/home/victor/Docs/Jesus/Gr/Minhas-palavras
+	tex
+3
+D/home/victor/Docs/Jesus/Gr/Minhas-palavras/tex
+	22-agosto-2020.tex
+3
+D/home/victor/Docs/Jesus/Gr/Minhas-palavras
+	tex
+3
+D/home/victor/Docs/Jesus/Gr
+	Minhas-palavras
+2
+D/home/victor/Docs/Jesus
+	Gr
+3
+D/home/victor/Docs
+	teste
+7
+D/home/victor
+	Repos
+28
+D/home/victor/Repos
+	ListasC1
+5
 D
 
 # Command line history (oldest to newest):

@@ -12,3 +12,7 @@ autocmd FileType c,cpp inoremap { {<Enter>}<Esc>O
 nnoremap <leader>w 1z=A
 nnoremap <leader>z [s1z=A
 inoremap <leader>z <esc>[s1z=A
+
+" Fazendo os .hpp
+nnoremap <leader>l f{ca{<esc>r; 
+
