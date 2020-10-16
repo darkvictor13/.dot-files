@@ -253,3 +253,66 @@ snippet frame
 	\frametitle{$1}
 \end{frame}
 endsnippet
+
+snippet facul
+%% Incluindo os pacotes necessários
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{colortbl}
+\usepackage{framed}
+\usepackage{enumitem}
+
+%% Definindo o Autor e o título
+\newcommand{\prof}{Newton Spolaôr}
+\newcommand{\materia}{Introdução à Engenharia de Software}
+
+\author{Victor Emanuel Almeida}
+\title{1$^{\underbar{o}}$ Trabalho \materia}
+
+\pretitle{\vfill\Huge}
+	\posttitle{\vfill}
+	\preauthor{\Large\textbf{Aluno}:~}
+	\postauthor{.\\\Large\textbf{Prof}:~\prof\\}
+	\predate{\Large\textbf{Data}:~}
+\postdate{\\\vskip .3cm\Large\textbf{Instituição}:~UNIOESTE}
+
+%% Estilo da página
+\pagestyle{fancy}
+\fancyfoot[L]{Aluno: \theauthor}
+\fancyfoot[R]{Prof: \prof}
+\fancyfoot[C]{}
+\fancyhead[L]{1 trabalho de IES}
+\fancyhead[R]{página~-~\thepage~-}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+%% Definindo espaçamento
+\titlespacing{\section}{0pt}{*2}{*1.1}
+%%\titlespacing{\subsection}{}{}{}
+
+%%Definindo formato de títulos
+%%\titleformat{comando}[formato, ex:wrap]{mudar fontes}{antes do separador}{separador}{depois do separador}[no fim do comando]
+\titleformat{\section}
+{\large}
+{\thesection)}
+{.2cm}
+{}[\titlerule]
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	\maketitle\thispagestyle{empty}
+\end{titlepage}
+\end{document}
+endsnippet
