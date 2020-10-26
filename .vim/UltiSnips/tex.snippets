@@ -191,8 +191,16 @@ snippet init
 \end\{document}
 endsnippet
 
-snippet sec "Cria uma secao"
-\section{$1}
+snippet sec
+\section{$1}\label{$1}
+endsnippet
+
+snippet ssec
+\subsection{$1}\label{$1}
+endsnippet
+
+snippet sssec
+\subsubsection{$1}\label{$1}
 endsnippet
 
 snippet ha "Flecha puxando da linha de cima"
@@ -213,7 +221,7 @@ snippet facul
 \usepackage{titling}
 \usepackage{indentfirst}
 \usepackage{graphicx}
-\graphicspath{{images/}}
+\graphicspath{{./images/} {~/Pictures/latex}}
 \usepackage{wrapfig}
 \usepackage{fancyhdr}
 \usepackage{colortbl}
@@ -222,11 +230,10 @@ snippet facul
 \usepackage{framed}
 \usepackage{enumitem}
 \usepackage{natbib}
-\usepackage{url}
 \usepackage{amsmath}
 \usepackage{parskip}
-\usepackage{vmargin}
-\usepackage{datetime}
+\usepackage{url}
+\usepackage{hyperref}
 
 %% Definindo o Autor e o título
 \newcommand{\prof}{$1}
@@ -262,7 +269,7 @@ snippet facul
 
 	\begin{minipage}{0.4\textwidth}
 		\begin{flushleft}
-			\includegraphics[scale=0.6]{logo_unioeste1.jpg}\\\[1.0 cm]
+			\includegraphics[scale=0.6]{logo_unioeste.jpg}\\\[1.0 cm]
 		\end{flushleft}
 	\end{minipage}
 	\begin{minipage}{0.5\textwidth}
@@ -296,10 +303,13 @@ snippet facul
 	
 	\vfill\thedate
 	\end{titlepage}
+
 	\pagestyle{fancy}
 	\fancyfoot[L]{Aluno(s):~\theauthor}
 	\fancyfoot[R]{Prof:~\prof}
-	\fancyhead[L]{1 prova de LM}
+	\fancyhead[L]{}
 	\fancyhead[R]{página~-~\thepage~-}
-	\end{document}
+
+	\tableofcontents
+\end{document}
 endsnippet
