@@ -10,6 +10,8 @@ autocmd FileType tex nmap <F6> :LLPStartPreview <CR>
 " Abrindo arquivos latex de forma correta
 autocmd BufRead,BufNewFile *.tex set filetype=tex
 
+" Compilar em JAVA
+autocmd FileType java map <F6> :!javac %:r.java &<Enter>
 " Compilar em c
 autocmd FileType c map <F6> :!gcc %:r.c -o %:r -lm &<Enter>
 " Copilar c++
