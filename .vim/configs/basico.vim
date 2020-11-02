@@ -25,6 +25,9 @@ set path=$PWD/**
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus
 
+" ALgumas coisas clicaveis
+set mouse=a
+
 " Decidindo o colorscheme
 color dracula
 "color spacecamp_lite

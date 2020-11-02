@@ -29,5 +29,27 @@ mov rax, 1  ; 1 == código de chamada de write
 mov rdi, $1 ; onde escrever, 1 é na tela
 mov rsi, $2 ; ponteiro para o buffer
 mov rdx, $3 ; tamanho máximo de escrita
-syscall     
+syscall
+endsnippet
+
+snippet read
+mov rax, 0  ; 0 == código de chamada de read
+mov rdi, $1 ; onde ler, 1 é na tela
+mov rsi, $2 ; ponteiro para o buffer
+mov rdx, $3 ; tamanho máximo de leitura
+syscall
+endsnippet
+
+snippet open
+mov rax, 2  ; 2 == código de chamada de open
+mov rdi, $1 ; ponteiro para o nome do arquivo
+mov rsi, $2 ; flags
+mov rdx, $3 ; permissões em octal
+syscall
+endsnippet
+
+snippet close
+mov rax, 3  ; 3 == código de chamada de close
+mov rdi, $1 ; o file descriptor, um inteiro
+syscall
 endsnippet
