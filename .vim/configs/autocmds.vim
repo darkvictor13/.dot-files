@@ -23,7 +23,7 @@ autocmd FileType asm map <F6> :!nasm -f elf64 %:r.asm && ld %:r.o -o %:r.x &<Ent
 
 " Carrega dicionario em português
 autocmd FileType * set spelllang=pt 
-autocmd FileType c,cpp,text,tex,gitcommit,snippets,asm set spell
+autocmd FileType c,cpp,text,tex,gitcommit,snippets set spell
 
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
