@@ -10,7 +10,7 @@ set noshowmode
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 " configura a tecla leader
 let mapleader =","
 "impede que o vim execute shellscripts indesejados, modo seguro
@@ -24,6 +24,9 @@ nnoremap <leader><space> :nohlsearch<CR>
 set path=$PWD/**
 " clipboard compartilhada, vim e resto do sistema
 set clipboard=unnamedplus
+
+" ALgumas coisas clicaveis
+set mouse=a
 
 " Decidindo o colorscheme
 color dracula
