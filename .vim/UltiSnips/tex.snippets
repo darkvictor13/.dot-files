@@ -221,7 +221,7 @@ snippet facul
 \usepackage{titling}
 \usepackage{indentfirst}
 \usepackage{graphicx}
-\graphicspath{{./images/} {~/Pictures/latex}}
+\graphicspath{{./images/} {~/Pictures/latex/}}
 \usepackage{wrapfig}
 \usepackage{fancyhdr}
 \usepackage{colortbl}
@@ -234,6 +234,14 @@ snippet facul
 \usepackage{parskip}
 \usepackage{url}
 \usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	citecolor=black,
+}
 
 %% Definindo o Autor e o título
 \newcommand{\prof}{$1}
