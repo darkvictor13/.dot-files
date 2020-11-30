@@ -1,9 +1,9 @@
-sw_volume: 60
+sw_volume: 70
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
-current: 2
-time: 148.110000
+current: 9
+time: 343.012000
 random: 1
 repeat: 0
 single: 0
@@ -21,4 +21,5 @@ playlist_begin
 6:Morada/Oh!_Se_Fendesses.mp3
 7:Isra_Subira/Festa_Do_Universo.mp3
 8:Isra_Subira/Me_Leva_pra_Casa.mp3
+9:diversos/[Bruno_Alvez]_Eu_Acordo_Apaixonado.mp3
 playlist_end

@@ -7,9 +7,9 @@ set relativenumber
 set showcmd
 set noshowmode
 " Configuração do tab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 " configura a tecla leader
 let mapleader =","
