@@ -5,13 +5,44 @@ function auto_git() {
   git push
 }
 
+function nasm_compile() {
+  echo -n "Esse programa usa funções do C? [Y/n] "
+  read VAR # read keyboard input
+  FIRSTLETTER=${VAR:0:1} # get the first letter of keyboard input
+  UPPER="$(echo $FIRSTLETTER | tr a-z A-Z)" # Captalize the letter
+
+  # compare the captlize letter with "N"
+  if [ "$UPPER" = "N" ]; then
+    nasm -f elf64 $1 && ld ${1%.asm}.o -o ${1%.asm}.x && rm ${1%.asm}.o
+  else
+    nasm -f elf64 $1 && gcc -no-pie ${1%.asm}.o -o ${1%.asm}.x && rm ${1%.asm}.o
+  fi
+}
+
+# The latexmk -c dont clear all files
+# pre-contidion:
+# the .tex in file name needs to be removed
+function clear_tex_directory() {
+  rm $(ls | grep -v "$1.pdf" | grep -v "$1.tex" | grep -v "*.bib")
+}
+
+
+function tex_compile() {
+  latexmk -pdf $1 && clear_tex_directory ${1%.tex}
+}
+
 # funcao compilando
 function compile() {
   case $1 in
-    *.c)      gcc $1 -o ${1%.c} -lm;;
-    *.cpp)    g++ -Wall -pedantic $1 -o ${1%.cpp};;
-    *.asm)    nasm -f elf64 $1 && ld ${1%.asm}.o -o ${1%.asm}.x;;
+    *.c)      gcc $1 -o ${1%.c} -lm ;;
+    *.cpp)    g++ -Wall -pedantic $1 -o ${1%.cpp} ;;
+    *.asm)    nasm_compile $1 ;;
+    *.tex)    tex_compile $1 ;;
   esac
+}
+
+function vim() {
+  export FILE=$1 && /bin/vim $1
 }
 
 # Funcao 
