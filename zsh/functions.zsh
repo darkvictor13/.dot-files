@@ -23,7 +23,7 @@ function nasm_compile() {
 # pre-contidion:
 # the .tex in file name needs to be removed
 function clear_tex_directory() {
-  rm $(ls | grep -v "$1.pdf" | grep -v "$1.tex" | grep -v "*.bib")
+  rm $(ls | grep -v "$1.pdf" | grep -v "$1.tex" | grep -v *.bib)
 }
 
 
