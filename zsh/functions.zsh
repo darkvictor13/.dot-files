@@ -1,4 +1,4 @@
-# funcao para adicionar no git de forma automatica
+# funcao para adicionar no git de forma automatic5
 function auto_git() {
   git add -A
   [ -z "$1" ] && git commit || git commit -m "$1"
@@ -42,7 +42,7 @@ function compile() {
 }
 
 function vim() {
-  export FILE=$1 && /bin/vim $1
+  export FILE=$1 && /bin/vim $@
 }
 
 # Funcao 
