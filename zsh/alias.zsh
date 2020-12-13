@@ -13,8 +13,8 @@ alias neofetch='figlet -oc "ArchLinux"| lolcat && figlet -oc "DoVictor"| lolcat 
 alias vifm="~/.config/vifm/scripts/vifmrun"
 # Disponibliza a temperatura da minha cidade no terminal
 alias temp="curl wttr.in"
-# exporta uma variavel antes de abrir o vim
-#alias vim=
+# faz o mv perguntar antes de sobreescrever os aqruivos
+alias mv="mv -i"
 
 # acessando pastas rapidamente
 alias clp="cd ~/Docs/facul/2-ano/CLP"
