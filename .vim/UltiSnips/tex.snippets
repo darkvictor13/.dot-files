@@ -86,13 +86,13 @@ endsnippet
 
 snippet items
 \begin{itemize}
-	$1
+	\item $1
 \end{itemize}
 endsnippet
 
 snippet enum
 \begin{enumerate}
-	$1
+	\item $1
 \end{enumerate}
 endsnippet
 
@@ -153,7 +153,6 @@ snippet init
 \usepackage\{indentfirst}
 \usepackage\{graphicx}
 %%\graphicspath{{images/}}
-\usepackage\{fancyhdr}
 \usepackage\{color}
 \usepackage\{fancyhdr}
 \usepackage\{colortbl}
@@ -226,19 +225,23 @@ snippet facul
 \usepackage{fancyhdr}
 \usepackage{colortbl}
 \usepackage{color}
-\usepackage{fancyhdr}
 \usepackage{framed}
 \usepackage{enumitem}
-\usepackage{natbib}
 \usepackage{amsmath}
-\usepackage{url}
+\usepackage{lastpage}
+\usepackage[hyphens]{url}
 \usepackage{hyperref}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[num,overcite,abnt-emphasize=bf]{abntex2cite}
+%%\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
+%%\citebrackets()
+\citebrackets[]
 
 \hypersetup{
 	colorlinks=true,
 	linkcolor=black,
 	filecolor=magenta,      
-	urlcolor=cyan,
+	urlcolor=blue,
 	citecolor=black,
 }
 
