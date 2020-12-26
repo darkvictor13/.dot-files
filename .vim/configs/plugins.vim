@@ -1,8 +1,7 @@
 " Vim airline
 " let g:airline_theme='bubblegum'
-let g:airline_theme='deus'
+" let g:airline_theme='deus'
 let g:airline_theme='powerlineish'
-" let g:airline_theme='powerlineish'
 let g:airline_symbols_ascii = 1
 let g:airline_powerline_fonts = 1
 " let g:airline#extensions#branch#enabled=1
@@ -21,8 +20,8 @@ aug end
 
 " Nerd Tree
 " Abre Quando vc digita so vim sem arquivo
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Fecha caso so o NERDTree esteja ativo
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Bind para abrir
@@ -56,6 +55,7 @@ let g:ycm_semantic_triggers =  {
   \ 'c' : ['re!\w{2}'],
   \ 'cpp' : ['re!\w{2}'],
   \ 'python' : ['re!\w{2}'],
+  \ 'java' : ['re!\w{2}'],
   \ }
 
 " Verificador de erros c/c++ syntastic

@@ -41,9 +41,9 @@ function compile() {
   esac
 }
 
-function vim() {
-  export FILE=$1 && /bin/vim $@
-}
+#function vim() {
+  #export FILE=$1 && /bin/vim $@
+#}
 
 # Funcao 
 ex () {
