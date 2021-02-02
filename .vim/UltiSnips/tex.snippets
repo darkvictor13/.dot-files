@@ -323,3 +323,52 @@ snippet facul
 	\tableofcontents
 \end{document}
 endsnippet
+
+snippet slides
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\graphicspath{{./images/} {/home/victor/Pictures/latex/}}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{beamerthemeshadow}
+
+\beamertemplatenavigationsymbolsempty% tira os elementos de navegação da parte de baixo
+%\setbeamertemplate{footline}{}%remove o autor e o título da parte de baixo
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[black]{footline}%
+	\hspace{1em}%
+	Página~\insertframenumber~de~\inserttotalframenumber
+}
+
+\usetheme{Frankfurt}
+\usecolortheme{orchid}
+
+%% Definindo o Autor e o título
+\newcommand{\prof}{$1}
+\newcommand{\materia}{$2}
+
+\author{$3}
+%\author{Victor Emanuel Almeida}
+%\title{1$^{\underbar{a}}$ Apresentação de \materia}
+\date{\today}
+\institute{UNIOESTE}
+\logo{\includegraphics[height=1cm]{logo_unioeste.jpg}}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Introdução}\label{Introdução}
+\begin{frame}
+\frametitle{Conteúdo}
+\tableofcontents
+\end{frame}
+
+\end{document}
+endsnippet

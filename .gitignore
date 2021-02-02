@@ -2,3 +2,5 @@ mpd/database
 mpd/mpd.fifo
 mpd/mpd.log
 mpd/mpdstate
+mpd/mpdstate
+vifm/vifminfo.json
