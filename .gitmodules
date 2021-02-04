@@ -76,9 +76,6 @@
 [submodule ".vim/bundle/vim-quickrun"]
 	path = .vim/bundle/vim-quickrun
 	url = https://github.com/huytd/vim-quickrun.git
-[submodule ".vim/bundle/vim-terminal-help"]
-	path = .vim/bundle/vim-terminal-help
-	url = https://github.com/skywind3000/vim-terminal-help.git
 [submodule ".vim/bundle/vim-devicons"]
 	path = .vim/bundle/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
