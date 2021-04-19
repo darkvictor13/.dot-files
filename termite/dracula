@@ -15,13 +15,11 @@
 
 [colors]
 # special
-foreground		= #ffff99
-foreground_bold = #ffff99
-cursor          = #ffff99
-# background = rgba (6, 3, 2, 0.9)
-# background = rgba (0, 0, 0, 0.97)
-background = rgba (14, 14, 14, 0.95)
-# background = rgba (14, 14, 14, 1)
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+#background = rgba (35, 42, 54, 0.9)
+background = rgba (6, 3, 2, 0.95)
 
 # black
 color0  = #000000
@@ -37,19 +35,16 @@ color10 = #5af78e
 
 # yellow
 color3  = #ffff00
-#color11 = #ffff60
 color11 = #D4EA00
 
-# laranja
-color4  = #ff8000
-color12 = #ff9933
+# blue
+#color4  = #bd93f9
+color4  = #6a09f2
+color12 = #caa9fa
 
-# azul
-#color5  = #003297
-#color13 = #0032ff
-
-color5  = #de935f
-color13 = #f0c674
+# magenta
+color5  = #ff79c6
+color13 = #ff92d0
 
 # cyan
 color6  = #8be9fd
@@ -60,13 +55,9 @@ color7  = #bfbfbf
 color15 = #e6e6e6
 
 [options]
+#font = Ubuntu Mono derivative Powerline 12
 #font = Source Code Pro 11
 font = Hack Nerd Font Mono 11
-
-#font = Hurmit Nerd Font Mono 11
-#font = Hack 11
-# font = Comfortaa-Light 14
-# font = Ubuntu Mono derivative Powerline 12
 clickable_url = true
 scrollback_lines = 10000
 audible_bell = false

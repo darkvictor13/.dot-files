@@ -82,12 +82,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Configurando as bordas das janelas
 #=================================================================================
-# class										border  backgr. text    indicator child_border
-client.focused						#010101 #285577 #ffffff #f3f781   #f3f781
-client.focused_inactive		#333333 #5f676a #ffffff #484e50   #f3f781
-client.unfocused					#333333 #222222 #888888 #292d2e   #3a2f0b
-client.urgent							#2f343a #900000 #ffffff #900000   #900000
-client.placeholder				#000000 #0c0c0c #ffffff #000000   #0c0c0c
+# class						border  backgr. text    indicator child_border
+client.focused			    #010101 #285577 #ffffff #f3f781   #f3f781
+client.focused_inactive	    #333333 #5f676a #ffffff #484e50   #f3f781
+client.unfocused		    #333333 #222222 #888888 #292d2e   #3a2f0b
+client.urgent			    #2f343a #900000 #ffffff #900000   #900000
+client.placeholder		    #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 #=================================================================================

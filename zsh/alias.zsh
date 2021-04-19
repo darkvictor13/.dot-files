@@ -22,6 +22,9 @@ alias rm="rm -v"
 alias telas="sudo /home/victor/Repos/scripts/telas"
 
 # acessando pastas rapidamente
+# lab
+alias lab="cd ~/Docs/lab"
+
 # 2 ano
 alias clp="cd ~/Docs/facul/2-ano/CLP"
 alias so="cd ~/Docs/facul/2-ano/SO"
@@ -38,6 +41,13 @@ alias e="cd ~/Docs/facul/3-ano/Estagio"
 alias oac="cd ~/Docs/facul/3-ano/OAC"
 alias paa="cd ~/Docs/facul/3-ano/PAA"
 alias sd="cd ~/Docs/facul/3-ano/SD"
+
+# Animes
+alias snk="cd ~/Video/series/SNK"
+alias re="cd ~/Video/series/Re_Zero"
+
+#series
+alias falcao="cd ~/Video/series/Falcao"
 
 alias gr="~/Docs/Jesus/Gr"
 alias preg="~/Docs/Jesus/Gr/Minhas-palavras"
