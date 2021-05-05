@@ -41,6 +41,7 @@ alias e="cd ~/Docs/facul/3-ano/Estagio"
 alias oac="cd ~/Docs/facul/3-ano/OAC"
 alias paa="cd ~/Docs/facul/3-ano/PAA"
 alias sd="cd ~/Docs/facul/3-ano/SD"
+alias c1="cd ~/Docs/facul/3-ano/C1_Monitoria"
 
 # Animes
 alias snk="cd ~/Video/series/SNK"

@@ -1,9 +1,9 @@
-sw_volume: 50
+sw_volume: 42
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
-current: 2
-time: 327.518000
+current: 1
+time: 49.133000
 random: 1
 repeat: 0
 single: 0
@@ -21,4 +21,17 @@ playlist_begin
 6:skilet/[Skillet]-Stars(acustico).mp3
 7:skilet/[Skillet]-Anchor.mp3
 8:skilet/Hero.mp3
+9:Projeto_Sola/Campos.mp3
+10:Projeto_Sola/Confiança _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-65f5iCbWf1I.mp3
+11:Projeto_Sola/Da_Vida.mp3
+12:Projeto_Sola/Das_Trevas_A_Luz.mp3
+13:Projeto_Sola/Entre_Nos.mp3
+14:Projeto_Sola/Eterno_Lar.mp3
+15:Projeto_Sola/Exodo.mp3
+16:Projeto_Sola/Forte Mão & Então Caí _ Glorificar Cristo, Edificar a Igreja - Projeto Sola--sk57kOoHHo.mp3
+17:Projeto_Sola/Isaías 53 _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-7clLRGKd1q0.mp3
+18:Projeto_Sola/Nosso_Rei.mp3
+19:Projeto_Sola/Nunc_Dimittis.mp3
+20:Projeto_Sola/Por_Todos_Os_Dias.mp3
+21:Projeto_Sola/Redencao.mp3
 playlist_end
