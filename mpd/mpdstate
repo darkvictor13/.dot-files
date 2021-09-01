@@ -1,9 +1,9 @@
-sw_volume: 42
+sw_volume: 50
 audio_device_state:1:pulse audio
 audio_device_state:1:FIFO
 state: pause
-current: 1
-time: 49.133000
+current: 4
+time: 62.802000
 random: 1
 repeat: 0
 single: 0
@@ -12,26 +12,33 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:diversos/Labareda.mp3
-1:diversos/[Ministério_Zoe]-Nunca_Foi_Sobre_Nós.mp3
-2:diversos/[GABRIELA_ROCHA]-LUGAR_SECRETO.mp3
-3:diversos/[fhop_music]-RUJA_O_LEÃO.mp3
-4:diversos/[fhop_music]-QUEBRA_O_SILÊNCIO.mp3
-5:skilet/[Skillet]-Stars.mp3
-6:skilet/[Skillet]-Stars(acustico).mp3
-7:skilet/[Skillet]-Anchor.mp3
-8:skilet/Hero.mp3
-9:Projeto_Sola/Campos.mp3
-10:Projeto_Sola/Confiança _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-65f5iCbWf1I.mp3
-11:Projeto_Sola/Da_Vida.mp3
-12:Projeto_Sola/Das_Trevas_A_Luz.mp3
-13:Projeto_Sola/Entre_Nos.mp3
-14:Projeto_Sola/Eterno_Lar.mp3
-15:Projeto_Sola/Exodo.mp3
-16:Projeto_Sola/Forte Mão & Então Caí _ Glorificar Cristo, Edificar a Igreja - Projeto Sola--sk57kOoHHo.mp3
-17:Projeto_Sola/Isaías 53 _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-7clLRGKd1q0.mp3
-18:Projeto_Sola/Nosso_Rei.mp3
-19:Projeto_Sola/Nunc_Dimittis.mp3
-20:Projeto_Sola/Por_Todos_Os_Dias.mp3
-21:Projeto_Sola/Redencao.mp3
+0:Alessandro_VIllas_Boas/[Alessandro_Vilas_Boas]-(Jesus_Copy)-O_FOGO_NUNCA_DORME.mp3
+1:Projeto_Sola/Confiança _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-65f5iCbWf1I.mp3
+2:Projeto_Sola/Forte Mão & Então Caí _ Glorificar Cristo, Edificar a Igreja - Projeto Sola--sk57kOoHHo.mp3
+3:Projeto_Sola/Isaías 53 _ Glorificar Cristo, Edificar a Igreja - Projeto Sola-7clLRGKd1q0.mp3
+4:Projeto_Sola/Campos.mp3
+5:Projeto_Sola/Colossenses_1.mp3
+6:Projeto_Sola/Confissoes.mp3
+7:Projeto_Sola/Da_Vida.mp3
+8:Projeto_Sola/Das_Trevas_A_Luz.mp3
+9:Projeto_Sola/Entre_Nos.mp3
+10:Projeto_Sola/Eterno_Lar.mp3
+11:Projeto_Sola/Exodo.mp3
+12:Projeto_Sola/Genesis.mp3
+13:Projeto_Sola/Magnificat.mp3
+14:Projeto_Sola/Nosso_Rei.mp3
+15:Projeto_Sola/Nunc_Dimittis.mp3
+16:Projeto_Sola/Por_Todos_Os_Dias.mp3
+17:Projeto_Sola/Redencao.mp3
+18:Alessandro_VIllas_Boas/[Alessandro_Vilas_Boas]-QUERO_CONHECER_JESUS.mp3
+19:Alessandro_VIllas_Boas/[Alessandro_Vilas_Boas]-O_Carpinteiro.mp3
+20:Alessandro_VIllas_Boas/O_Carpinteiro.mp3
+21:diversos/Vitorioso_Es.mp3
+22:diversos/Labareda.mp3
+23:diversos/[Juliano_Son]-Lindo_Es.mp3
+24:diversos/[Juliano_Son]-Milagres.mp3
+25:diversos/[Juliano_Son]-Quando_o_Mundo_Cai_ao_meu_Redor.mp3
+26:diversos/[Juliano_Son]-Eu_vou_Construir.mp3
+27:Morada/Nao_Ha_Amor_Igual.mp3
+28:Morada/[MORADA]-OH!_SE_FENDESSES.mp3
 playlist_end

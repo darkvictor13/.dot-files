@@ -51,5 +51,5 @@ alias re="cd ~/Video/series/Re_Zero"
 alias falcao="cd ~/Video/series/Falcao"
 
 alias gr="~/Docs/Jesus/Gr"
-alias preg="~/Docs/Jesus/Gr/Minhas-palavras"
+alias preg="~/Docs/Jesus/minhas_palavras"
 alias jefinho="~/Docs/Jesus/Gr/Estudos-jefinho"

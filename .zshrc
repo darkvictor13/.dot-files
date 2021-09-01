@@ -18,6 +18,7 @@
 HISTFILE=~/.zsh_history
 # Path to your oh-my-zsh installation.
 export ZSH="/home/victor/zsh/.oh-my-zsh"
+export PATH=$PATH:/home/victor/.local/bin
 ZSH_CUSTOM=$HOME/zsh
 # Escolhe o tema
 # ZSH_THEME="agnoster"
