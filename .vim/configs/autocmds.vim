@@ -17,7 +17,7 @@ autocmd FileType java map <F6> :!javac %:r.java &<Enter>
 autocmd FileType c map <F6> :!gcc %:r.c -std=c11 -O2 -o %:r -lm &<Enter>
 " autocmd FileType c map <F6> :zsh compile("%:r") &<Enter>
 " Copilar c++
-autocmd FileType cpp map <F6> :!g++ %:r.cpp -std=c++17 -O2 -lm -o %:r &<Enter>
+autocmd FileType cpp map <F6> :!g++ %:r.cpp -std=c++17 -lm -o %:r &<Enter>
 " Copilar assembly
 autocmd FileType asm map <F6> :!nasm -f elf64 %:r.asm && ld %:r.o -o %:r.x &<Enter>
 " Não funciona

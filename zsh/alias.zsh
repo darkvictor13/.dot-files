@@ -24,6 +24,7 @@ alias telas="sudo /home/victor/Repos/scripts/telas"
 # acessando pastas rapidamente
 # lab
 alias lab="cd ~/Docs/lab"
+alias m="cd ~/Docs/facul/maratona/2021"
 
 # 2 ano
 alias clp="cd ~/Docs/facul/2-ano/CLP"
@@ -43,12 +44,13 @@ alias paa="cd ~/Docs/facul/3-ano/PAA"
 alias sd="cd ~/Docs/facul/3-ano/SD"
 alias c1="cd ~/Docs/facul/3-ano/C1_Monitoria"
 
-# Animes
-alias snk="cd ~/Video/series/SNK"
-alias re="cd ~/Video/series/Re_Zero"
-
-#series
-alias falcao="cd ~/Video/series/Falcao"
+# 4 ano
+alias bd="cd ~/Docs/facul/4-ano/bd"
+alias es1="cd ~/Docs/facul/4-ano/es1"
+alias redes="cd ~/Docs/facul/4-ano/redes"
+alias fe="cd ~/Docs/facul/4-ano/empreendedorismo"
+alias pdi="cd ~/Docs/facul/4-ano/pdi"
+alias c="cd ~/Docs/facul/4-ano/ciencia_de_dados"
 
 alias gr="~/Docs/Jesus/Gr"
 alias preg="~/Docs/Jesus/minhas_palavras"
