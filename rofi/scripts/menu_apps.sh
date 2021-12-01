@@ -19,13 +19,13 @@ options="$files\n$editor\n$music\n$audio"
 chosen="$(echo -e "$options" | $rofi_command -p "Most Used" -dmenu -selected-row 0)"
 case $chosen in
     $files)
-        termite -e "/home/victor/.config/vifm/scripts/vifmrun" &
+        alacritty -e "/home/victor/.config/vifm/scripts/vifmrun" &
         ;;
     $editor)
-        termite -e vim &
+        alacritty -e vim &
         ;;
     $music)
-       i3-msg 'workspace number 10'; killall mpd; termite -e "ncmpcp"; mpd; termite -e "ncmpcpp"&
+       i3-msg 'workspace number 10'; killall mpd; alacritty -e "ncmpcp"; mpd; alacritty -e "ncmpcpp"&
         ;;
     $audio)
         pavucontrol &

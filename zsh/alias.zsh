@@ -51,6 +51,7 @@ alias redes="cd ~/Docs/facul/4-ano/redes"
 alias fe="cd ~/Docs/facul/4-ano/empreendedorismo"
 alias pdi="cd ~/Docs/facul/4-ano/pdi"
 alias c="cd ~/Docs/facul/4-ano/ciencia_de_dados"
+alias comp="cd ~/Docs/facul/4-ano/compiladores"
 
 alias gr="~/Docs/Jesus/Gr"
 alias preg="~/Docs/Jesus/minhas_palavras"
