@@ -326,6 +326,9 @@ endsnippet
 
 snippet slides
 \documentclass[12pt]{beamer}
+
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[num]{abntex2cite}		% Citações padrão ABNT
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
 \usepackage{graphicx}
@@ -336,6 +339,7 @@ snippet slides
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{beamerthemeshadow}
+\citebrackets[]
 
 \beamertemplatenavigationsymbolsempty% tira os elementos de navegação da parte de baixo
 %\setbeamertemplate{footline}{}%remove o autor e o título da parte de baixo
@@ -368,6 +372,12 @@ snippet slides
 \begin{frame}
 \frametitle{Conteúdo}
 \tableofcontents
+\end{frame}
+
+\section{Referências}\label{Referências}
+\begin{frame}[allowframebreaks]
+	\frametitle{Referências}
+	\bibliography{ref}
 \end{frame}
 
 \end{document}
